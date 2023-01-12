@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>Hexo</title>
+        <title>Florence的城堡</title>
         <link>http://example.com</link>
-        <description></description>
-        <language>en</language>
+        <description>我在这里随便写写</description>
+        <language>zh-CN</language>
         <pubDate>Thu, 12 Jan 2023 11:11:09 +0800</pubDate>
         <lastBuildDate>Thu, 12 Jan 2023 11:11:09 +0800</lastBuildDate>
         <item>
