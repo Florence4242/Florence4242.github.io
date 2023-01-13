@@ -1,12 +1,12 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Florence的城堡 • All posts by \"我还是支持拜仁慕尼黑\" category",
+    "title": "Florence的城堡 • All posts by \"我还是会支持拜仁慕尼黑\" category",
     "description": "我在这里随便写写",
     "home_page_url": "http://example.com",
     "items": [
         {
-            "id": "http://example.com/2023/01/13/%E6%88%91%E8%BF%98%E6%98%AF%E6%94%AF%E6%8C%81%E6%8B%9C%E4%BB%81%E6%85%95%E5%B0%BC%E9%BB%91/dd/",
-            "url": "http://example.com/2023/01/13/%E6%88%91%E8%BF%98%E6%98%AF%E6%94%AF%E6%8C%81%E6%8B%9C%E4%BB%81%E6%85%95%E5%B0%BC%E9%BB%91/dd/",
+            "id": "http://example.com/2023/01/13/%E6%88%91%E8%BF%98%E6%98%AF%E4%BC%9A%E6%94%AF%E6%8C%81%E6%8B%9C%E4%BB%81%E6%85%95%E5%B0%BC%E9%BB%91/dd/",
+            "url": "http://example.com/2023/01/13/%E6%88%91%E8%BF%98%E6%98%AF%E4%BC%9A%E6%94%AF%E6%8C%81%E6%8B%9C%E4%BB%81%E6%85%95%E5%B0%BC%E9%BB%91/dd/",
             "title": "我还是会支持拜仁慕尼黑",
             "date_published": "2023-01-13T06:11:17.210Z",
             "content_html": "<p>Welcome to <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvLw==\">Hexo</span>! This is your very first post. Check <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv\">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=\">troubleshooting</span> or you can ask me on <span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==\">GitHub</span>.</p>\n",
