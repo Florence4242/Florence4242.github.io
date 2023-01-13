@@ -3,7 +3,15 @@
     <id>http://example.com</id>
     <title>Florence的城堡</title>
     <link href="http://example.com" />
-    <updated>2023-01-13T08:11:15.182Z</updated>
+    <updated>2023-01-13T08:15:55.654Z</updated>
+    <entry>
+        <id>http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Golang/Golang/</id>
+        <title>明天再学！</title>
+        <link rel="alternate" href="http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Golang/Golang/"/>
+        <content type="html">&lt;p&gt;明天再学！&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nb2xhbmcuZ29vZ2xlLmNuLw==&#34;&gt;官网&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nb2xhbmcuZ29vZ2xlLmNuLw==&#34;&gt;官网&lt;/span&gt;！&lt;/p&gt;
+</content>
+        <updated>2023-01-13T08:15:55.654Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2023/01/13/%E6%82%84%E6%82%84%E6%94%BE%E6%B4%8B%E5%B1%81/%E6%94%BE%E7%82%B9%E5%84%BF%E6%97%A5%E6%9C%AC%E5%B1%81/%E6%97%A5%E6%9C%AC%E5%B1%81/</id>
         <title>日本屁</title>
@@ -17,14 +25,6 @@
         <title>Typescript</title>
         <link rel="alternate" href="http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/Typescript/"/>
         <content type="html">&lt;p&gt;来早了，先去&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudHlwZXNjcmlwdGxhbmcub3JnLw==&#34;&gt;官网&lt;/span&gt;看看？&lt;/p&gt;
-</content>
-        <updated>2023-01-13T08:11:15.181Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/csharp/CSharp/</id>
-        <title>明天再学！</title>
-        <link rel="alternate" href="http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/csharp/CSharp/"/>
-        <content type="html">&lt;p&gt;明天再学！&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLWNuL2RvdG5ldC9jc2hhcnAv&#34;&gt;官网&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLWNuL2RvdG5ldC9jc2hhcnAv&#34;&gt;官网&lt;/span&gt;！&lt;/p&gt;
 </content>
         <updated>2023-01-13T08:11:15.181Z</updated>
     </entry>

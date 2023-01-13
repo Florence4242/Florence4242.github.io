@@ -5,8 +5,16 @@
         <link>http://example.com</link>
         <description>我在这里随便写写</description>
         <language>zh-CN</language>
-        <pubDate>Fri, 13 Jan 2023 16:11:15 +0800</pubDate>
-        <lastBuildDate>Fri, 13 Jan 2023 16:11:15 +0800</lastBuildDate>
+        <pubDate>Fri, 13 Jan 2023 16:15:55 +0800</pubDate>
+        <lastBuildDate>Fri, 13 Jan 2023 16:15:55 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Golang/Golang/</guid>
+            <title>明天再学！</title>
+            <link>http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Golang/Golang/</link>
+            <pubDate>Fri, 13 Jan 2023 16:15:55 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;明天再学！&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nb2xhbmcuZ29vZ2xlLmNuLw==&#34;&gt;官网&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nb2xhbmcuZ29vZ2xlLmNuLw==&#34;&gt;官网&lt;/span&gt;！&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2023/01/13/%E6%82%84%E6%82%84%E6%94%BE%E6%B4%8B%E5%B1%81/%E6%94%BE%E7%82%B9%E5%84%BF%E6%97%A5%E6%9C%AC%E5%B1%81/%E6%97%A5%E6%9C%AC%E5%B1%81/</guid>
             <title>日本屁</title>
@@ -21,14 +29,6 @@
             <link>http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/Typescript/</link>
             <pubDate>Fri, 13 Jan 2023 16:11:15 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;来早了，先去&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudHlwZXNjcmlwdGxhbmcub3JnLw==&#34;&gt;官网&lt;/span&gt;看看？&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/csharp/CSharp/</guid>
-            <title>明天再学！</title>
-            <link>http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/csharp/CSharp/</link>
-            <pubDate>Fri, 13 Jan 2023 16:11:15 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;明天再学！&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLWNuL2RvdG5ldC9jc2hhcnAv&#34;&gt;官网&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLWNuL2RvdG5ldC9jc2hhcnAv&#34;&gt;官网&lt;/span&gt;！&lt;/p&gt;
  ]]></description>
         </item>
         <item>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://example.com</id>
-    <title>Florence的城堡 • Posts by &#34;后端的现眼学习&#34; category</title>
+    <title>Florence的城堡 • Posts by &#34;golang&#34; category</title>
     <link href="http://example.com" />
     <updated>2023-01-13T08:15:55.654Z</updated>
     <entry>
@@ -11,13 +11,5 @@
         <content type="html">&lt;p&gt;明天再学！&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nb2xhbmcuZ29vZ2xlLmNuLw==&#34;&gt;官网&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nb2xhbmcuZ29vZ2xlLmNuLw==&#34;&gt;官网&lt;/span&gt;！&lt;/p&gt;
 </content>
         <updated>2023-01-13T08:15:55.654Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Java/Java/</id>
-        <title>加哇</title>
-        <link rel="alternate" href="http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Java/Java/"/>
-        <content type="html">&lt;p&gt;等我问问岳畅……&lt;/p&gt;
-</content>
-        <updated>2023-01-13T08:11:15.181Z</updated>
     </entry>
 </feed>

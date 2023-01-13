@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>Florence的城堡 • Posts by &#34;后端的现眼学习&#34; category</title>
+        <title>Florence的城堡 • Posts by &#34;golang&#34; category</title>
         <link>http://example.com</link>
         <description>我在这里随便写写</description>
         <language>zh-CN</language>
@@ -13,14 +13,6 @@
             <link>http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Golang/Golang/</link>
             <pubDate>Fri, 13 Jan 2023 16:15:55 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;明天再学！&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nb2xhbmcuZ29vZ2xlLmNuLw==&#34;&gt;官网&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nb2xhbmcuZ29vZ2xlLmNuLw==&#34;&gt;官网&lt;/span&gt;！&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Java/Java/</guid>
-            <title>加哇</title>
-            <link>http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Java/Java/</link>
-            <pubDate>Fri, 13 Jan 2023 16:11:15 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;等我问问岳畅……&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
