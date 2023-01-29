@@ -20,22 +20,14 @@
 &lt;h2 id=&#34;使用-npm-全局安装-typescript&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用-npm-全局安装-typescript&#34;&gt;#&lt;/a&gt; 使用 npm 全局安装 TypeScript&lt;/h2&gt;
 &lt;p&gt;・进入命令行&lt;br&gt;
 ・在命令行输入&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ npm i -g typescript&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;或&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$ cnpm install -g typescript&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;或&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$ yarn global add typescript&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight ts&#34;&gt;&lt;figcaption&gt;&lt;span&gt;scanner&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ npm i -g typescript&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;或&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$ cnpm install -g typescript&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;或&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$ yarn &lt;span class=&#34;variable language_&#34;&gt;global&lt;/span&gt; add typescript&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h2 id=&#34;创建一个-ts-文件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#创建一个-ts-文件&#34;&gt;#&lt;/a&gt; 创建一个 TS 文件&lt;/h2&gt;
 &lt;p&gt;呐，还上不了图……，自己建着玩吧……&lt;/p&gt;
 &lt;h2 id=&#34;使用-tsc-对-ts-文件进行编译&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用-tsc-对-ts-文件进行编译&#34;&gt;#&lt;/a&gt; 使用 tsc 对 ts 文件进行编译&lt;/h2&gt;
 &lt;p&gt;・进入命令行&lt;br&gt;
 ・进入 ts 文件所在的目录&lt;br&gt;
 ・执行命令&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ tsc xxx.ts&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/Typescript/</guid>
-            <title>Typescript</title>
-            <link>http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/Typescript/</link>
-            <pubDate>Fri, 13 Jan 2023 16:11:15 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;来早了，先去&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudHlwZXNjcmlwdGxhbmcub3JnLw==&#34;&gt;官网&lt;/span&gt;看看？&lt;/p&gt;
+&lt;figure class=&#34;highlight ts&#34;&gt;&lt;figcaption&gt;&lt;span&gt;scanner&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ tsc xxx.&lt;span class=&#34;property&#34;&gt;ts&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
  ]]></description>
         </item>
         <item>
@@ -44,6 +36,14 @@
             <link>http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Vue/Vue/</link>
             <pubDate>Fri, 13 Jan 2023 16:11:15 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;3 确实比 2 要爽一些，但是 3 的资源有点少。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbi52dWVqcy5vcmcvZ3VpZGUvaW50cm9kdWN0aW9uLmh0bWw=&#34;&gt;Vue3&lt;/span&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/Typescript/</guid>
+            <title>Typescript</title>
+            <link>http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/Typescript/</link>
+            <pubDate>Fri, 13 Jan 2023 16:11:15 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;来早了，先去&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudHlwZXNjcmlwdGxhbmcub3JnLw==&#34;&gt;官网&lt;/span&gt;看看？&lt;/p&gt;
  ]]></description>
         </item>
         <item>
