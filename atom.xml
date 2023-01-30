@@ -3,11 +3,22 @@
     <id>http://example.com</id>
     <title>Florence的城堡</title>
     <link href="http://example.com" />
-    <updated>2023-01-13T09:23:14.421Z</updated>
+    <updated>2023-01-30T08:57:59.476Z</updated>
     <entry>
-        <id>http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TypeScript%E5%85%A5%E9%97%A8_1/</id>
+        <id>http://example.com/2023/01/30/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8D%E5%A4%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%B7%A5%E5%85%B7/%E4%B8%80%E4%BA%9B%E5%B0%8F%E5%B7%A5%E5%85%B7/</id>
+        <title>获取时间与格式</title>
+        <link rel="alternate" href="http://example.com/2023/01/30/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8D%E5%A4%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%B7%A5%E5%85%B7/%E4%B8%80%E4%BA%9B%E5%B0%8F%E5%B7%A5%E5%85%B7/"/>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ss&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;获取时间与格式&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;51&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/**&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * 时间格式枚举&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * dateAndTime显示日期和时间；&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * dateOnly只显示日期；&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * timeOnly只显示时间&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * &lt;span class=&#34;doctag&#34;&gt;@author&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;Florence&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;*/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;enum&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;DateFormat&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    dateAndTime,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    dateOnly,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    timeOnly&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/**&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * 获取当前日期字符串&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * &lt;span class=&#34;doctag&#34;&gt;@param&lt;/span&gt; format 日期格式&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * &lt;span class=&#34;doctag&#34;&gt;@param&lt;/span&gt; showMilliseconds 是否显示毫秒&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * &lt;span class=&#34;doctag&#34;&gt;@returns&lt;/span&gt; 日期时间字符串&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * &lt;span class=&#34;doctag&#34;&gt;@author&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;Florence&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;getTimeStr&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;format: DateFormat = DateFormat.dateAndTime, showMilliseconds: &lt;span class=&#34;built_in&#34;&gt;boolean&lt;/span&gt; = &lt;span class=&#34;literal&#34;&gt;true&lt;/span&gt;&lt;/span&gt;): &lt;span class=&#34;built_in&#34;&gt;string&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; date = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Date&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; dateStr = &lt;span class=&#34;string&#34;&gt;`&lt;span class=&#34;subst&#34;&gt;$&amp;#123;date.getFullYear()&amp;#125;&lt;/span&gt;-&lt;span class=&#34;subst&#34;&gt;$&amp;#123;date.getMonth()&amp;#125;&lt;/span&gt;-&lt;span class=&#34;subst&#34;&gt;$&amp;#123;date.getDate()&amp;#125;&lt;/span&gt;`&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; timeStr = &lt;span class=&#34;string&#34;&gt;`&lt;span class=&#34;subst&#34;&gt;$&amp;#123;formatTimeNum(date.getHours())&amp;#125;&lt;/span&gt;:&lt;span class=&#34;subst&#34;&gt;$&amp;#123;formatTimeNum(date.getMinutes())&amp;#125;&lt;/span&gt;:&lt;span class=&#34;subst&#34;&gt;$&amp;#123;formatTimeNum(date.getSeconds())&amp;#125;&lt;/span&gt;`&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (showMilliseconds) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        timeStr += &lt;span class=&#34;string&#34;&gt;&amp;quot;.&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; millis = date.&lt;span class=&#34;title function_&#34;&gt;getMilliseconds&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (millis &amp;lt; &lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            timeStr += &lt;span class=&#34;string&#34;&gt;&amp;quot;00&amp;quot;&lt;/span&gt; + millis;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125; &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (millis &amp;lt; &lt;span class=&#34;number&#34;&gt;100&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            timeStr += &lt;span class=&#34;string&#34;&gt;&amp;quot;0&amp;quot;&lt;/span&gt; + millis;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125; &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            timeStr += millis&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (format == &lt;span class=&#34;title class_&#34;&gt;DateFormat&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;dateAndTime&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; dateStr + &lt;span class=&#34;string&#34;&gt;&amp;quot; &amp;quot;&lt;/span&gt; + timeStr;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (format == &lt;span class=&#34;title class_&#34;&gt;DateFormat&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;dateOnly&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; dateStr;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (format == &lt;span class=&#34;title class_&#34;&gt;DateFormat&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;timeOnly&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; timeStr;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt;  &lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;formatTimeNum&lt;/span&gt; (&lt;span class=&#34;attr&#34;&gt;timeNum&lt;/span&gt;: &lt;span class=&#34;built_in&#34;&gt;number&lt;/span&gt;): &lt;span class=&#34;built_in&#34;&gt;string&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; timeNum &amp;lt; &lt;span class=&#34;number&#34;&gt;10&lt;/span&gt; ? &lt;span class=&#34;string&#34;&gt;&amp;quot;0&amp;quot;&lt;/span&gt; + timeNum : timeNum;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+        <updated>2023-01-30T08:57:59.476Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2023/01/29/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TypeScript%E5%85%A5%E9%97%A8_1/</id>
         <title>TS的的准备工作</title>
-        <link rel="alternate" href="http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TypeScript%E5%85%A5%E9%97%A8_1/"/>
+        <link rel="alternate" href="http://example.com/2023/01/29/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TypeScript%E5%85%A5%E9%97%A8_1/"/>
         <content type="html">&lt;h1 id=&#34;ts-的环境搭建&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ts-的环境搭建&#34;&gt;#&lt;/a&gt; TS 的环境搭建&lt;/h1&gt;
 &lt;h2 id=&#34;下载-nodejs&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#下载-nodejs&#34;&gt;#&lt;/a&gt; 下载 Node.js&lt;/h2&gt;
 &lt;p&gt;可以在&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ub2RlanMub3JnL3poLWNuLw==&#34;&gt; Node.js 的官网&lt;/span&gt;挑选喜欢的版本 🌝&lt;/p&gt;
@@ -16,16 +27,24 @@
 &lt;h2 id=&#34;使用-npm-全局安装-typescript&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用-npm-全局安装-typescript&#34;&gt;#&lt;/a&gt; 使用 npm 全局安装 TypeScript&lt;/h2&gt;
 &lt;p&gt;・进入命令行&lt;br&gt;
 ・在命令行输入&lt;/p&gt;
-&lt;figure class=&#34;highlight ts&#34;&gt;&lt;figcaption&gt;&lt;span&gt;scanner&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ npm i -g typescript&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;或&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$ cnpm install -g typescript&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;或&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$ yarn &lt;span class=&#34;variable language_&#34;&gt;global&lt;/span&gt; add typescript&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;scanner&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ npm i -g typescript&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;或&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$ cnpm install -g typescript&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;或&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$ yarn &lt;span class=&#34;variable language_&#34;&gt;global&lt;/span&gt; add typescript&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h2 id=&#34;创建一个-ts-文件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#创建一个-ts-文件&#34;&gt;#&lt;/a&gt; 创建一个 TS 文件&lt;/h2&gt;
 &lt;p&gt;呐，还上不了图……，自己建着玩吧……&lt;/p&gt;
 &lt;h2 id=&#34;使用-tsc-对-ts-文件进行编译&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用-tsc-对-ts-文件进行编译&#34;&gt;#&lt;/a&gt; 使用 tsc 对 ts 文件进行编译&lt;/h2&gt;
 &lt;p&gt;・进入命令行&lt;br&gt;
 ・进入 ts 文件所在的目录&lt;br&gt;
 ・执行命令&lt;/p&gt;
-&lt;figure class=&#34;highlight ts&#34;&gt;&lt;figcaption&gt;&lt;span&gt;scanner&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ tsc xxx.&lt;span class=&#34;property&#34;&gt;ts&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;scanner&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ tsc xxx.&lt;span class=&#34;property&#34;&gt;ts&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 </content>
-        <updated>2023-01-13T09:23:14.421Z</updated>
+        <updated>2023-01-29T06:38:28.689Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2023/01/29/%E6%88%91%E8%BF%98%E6%98%AF%E4%BC%9A%E6%94%AF%E6%8C%81%E6%8B%9C%E4%BB%81%E6%85%95%E5%B0%BC%E9%BB%91/%E6%8B%9C%E4%BB%81/</id>
+        <title>拜仁是冠军</title>
+        <link rel="alternate" href="http://example.com/2023/01/29/%E6%88%91%E8%BF%98%E6%98%AF%E4%BC%9A%E6%94%AF%E6%8C%81%E6%8B%9C%E4%BB%81%E6%85%95%E5%B0%BC%E9%BB%91/%E6%8B%9C%E4%BB%81/"/>
+        <content type="html">&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZmNiYXllcm4uY24v&#34;&gt;拜仁是冠军！！！&lt;/span&gt;&lt;/p&gt;
+</content>
+        <updated>2023-01-29T06:38:28.689Z</updated>
     </entry>
     <entry>
         <id>http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Golang/Golang/</id>
@@ -44,18 +63,18 @@
         <updated>2023-01-13T08:11:15.182Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Vue/Vue/</id>
-        <title>Vue3</title>
-        <link rel="alternate" href="http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Vue/Vue/"/>
-        <content type="html">&lt;p&gt;3 确实比 2 要爽一些，但是 3 的资源有点少。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbi52dWVqcy5vcmcvZ3VpZGUvaW50cm9kdWN0aW9uLmh0bWw=&#34;&gt;Vue3&lt;/span&gt;&lt;/p&gt;
-</content>
-        <updated>2023-01-13T08:11:15.181Z</updated>
-    </entry>
-    <entry>
         <id>http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/Typescript/</id>
         <title>Typescript</title>
         <link rel="alternate" href="http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/Typescript/"/>
         <content type="html">&lt;p&gt;来早了，先去&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudHlwZXNjcmlwdGxhbmcub3JnLw==&#34;&gt;官网&lt;/span&gt;看看？&lt;/p&gt;
+</content>
+        <updated>2023-01-13T08:11:15.181Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Vue/Vue/</id>
+        <title>Vue3</title>
+        <link rel="alternate" href="http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Vue/Vue/"/>
+        <content type="html">&lt;p&gt;3 确实比 2 要爽一些，但是 3 的资源有点少。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbi52dWVqcy5vcmcvZ3VpZGUvaW50cm9kdWN0aW9uLmh0bWw=&#34;&gt;Vue3&lt;/span&gt;&lt;/p&gt;
 </content>
         <updated>2023-01-13T08:11:15.181Z</updated>
     </entry>
@@ -96,15 +115,108 @@
         <title>Cocos入门基础</title>
         <link rel="alternate" href="http://example.com/2023/01/13/Cocos%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9D%9F/Cocos%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/"/>
         <content type="html">&lt;p&gt;这个真要准备了…… 真的…… 不过过完年再说 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLmNvY29zLmNvbS9jcmVhdG9yL21hbnVhbC96aC8=&#34;&gt;🌝&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&#34;基础&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基础&#34;&gt;#&lt;/a&gt; 基础&lt;/h1&gt;
+&lt;h2 id=&#34;sprite-的参数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#sprite-的参数&#34;&gt;#&lt;/a&gt; Sprite 的参数&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;单色精灵&lt;/code&gt; &lt;br&gt;
+一般用于空气墙；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Atlas&lt;/code&gt;  --&amp;gt; Sprite 的 Atlas 图集资源&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;一般来说，我们可以使用第三方工具来进行图片资源压缩。压缩后会生成一个 PNG 大图和一个 plist 文件，这两个文件都需要导入到 CocosCreator 中才可以使用。压缩制作 Atlas 文件，可以使用 &lt;code&gt;Texture Packer&lt;/code&gt;  或者 &lt;code&gt;Unity&lt;/code&gt;  引擎的 &lt;code&gt;NGUI&lt;/code&gt;  都可以&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Sprite Frame&lt;/code&gt; &lt;br&gt;
+ 渲染 Sprite 使用的 SpriteFrame 图片资源；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Type&lt;/code&gt;  --&amp;gt; 渲染模式&lt;br&gt;
+包括： &lt;code&gt;普通(Simple)&lt;/code&gt; 、 &lt;code&gt;九宫格(Sliced)&lt;/code&gt; 、 &lt;code&gt;平铺(Tiled)&lt;/code&gt; 、 &lt;code&gt;填充(Filled)&lt;/code&gt;  和 &lt;code&gt;网格(Mesh)&lt;/code&gt; ；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Size Mode&lt;/code&gt;  --&amp;gt; 指定 Sprite 的尺寸&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Trimmed&lt;/code&gt;  表示会使用原始图片资源裁剪透明像素后的尺寸；&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Raw&lt;/code&gt;  表示会使用原始图片未经裁剪的尺寸；&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Custom&lt;/code&gt;  表示会使用自定义尺寸。当用户手动修改过 Node 的 Size 属性后， &lt;code&gt;Size Mode&lt;/code&gt;  会被自动设置为 &lt;code&gt;Custom&lt;/code&gt; ，除非再次指定为前两种尺寸模式；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Trim&lt;/code&gt; &lt;br&gt;
+ 勾选后将在渲染时去除原始图像周围的透明像素区域，&lt;mark&gt;该项仅在 Type 设置为 Simple 时生效&lt;/mark&gt;；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Scr Blend Factor&lt;/code&gt; &lt;br&gt;
+ 当前图像混合模式；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Dst Blend Factor&lt;/code&gt; &lt;br&gt;
+ 背景图像混合模式，和上面的属性共同作用，可以将前景和背景 Sprite 用不同的方式混合渲染；&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;对脚本语言的支持&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#对脚本语言的支持&#34;&gt;#&lt;/a&gt; 对脚本语言的支持&lt;/h2&gt;
+&lt;p&gt;3.0 之后只支持 Typescript，不再支持 JavaScript。不过直接在 TS 中将代码写成 JS 也能执行。&lt;/p&gt;
+&lt;h2 id=&#34;脚本的生命周期函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#脚本的生命周期函数&#34;&gt;#&lt;/a&gt; 脚本的生命周期函数&lt;/h2&gt;
+&lt;p&gt;目前提供给用户的生命周期回调函数主要有：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;onLoad&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;组件被加载时调用（第一个被执行）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;onEnable&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;当组件可用时执行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;start&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;初始化时调用，onLoad 执行完后调用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;update(dt)&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;刷新每一帧时调用， &lt;code&gt;dt&lt;/code&gt;  代表帧间隔时间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lateUpdate&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;update 执行完后马上会执行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;onDisable&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;当组件不可用时执行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;onDestroy&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;组件被销毁时调用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;Tips&lt;/strong&gt;&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;一个组件从初始化到激活，再到最终销毁的完整生命周期函数调用顺序为： &lt;code&gt;onLoad&lt;/code&gt;  -&amp;gt;  &lt;code&gt;onEnable&lt;/code&gt;  -&amp;gt;  &lt;code&gt;start&lt;/code&gt;  -&amp;gt;  &lt;code&gt;update&lt;/code&gt;  -&amp;gt;  &lt;code&gt;lateUpdate&lt;/code&gt;  -&amp;gt;  &lt;code&gt;onDisable&lt;/code&gt;  -&amp;gt;  &lt;code&gt;onDestroy&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;其中， &lt;code&gt;onLoad&lt;/code&gt;  和  &lt;code&gt;start&lt;/code&gt;  常常用于组件的&lt;mark&gt;初始化&lt;/mark&gt;，只有在节点  &lt;code&gt;activeInHierarchy&lt;/code&gt;  的情况下才能调用，并且最多只会被调用一次。除了上文提到的内容以及调用顺序的不同，它们还有以下区别：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;mark&gt;组件激活时&lt;/mark&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;onLoad&lt;/code&gt;  立即调用&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;start&lt;/code&gt;  延迟调用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;mark&gt;组件 &lt;code&gt;enabled&lt;/code&gt;  时是否调用&lt;/mark&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;onLoad&lt;/code&gt; ❌&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;start&lt;/code&gt; ✅&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </content>
         <updated>2023-01-13T08:11:15.179Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2023/01/13/%E6%88%91%E8%BF%98%E6%98%AF%E4%BC%9A%E6%94%AF%E6%8C%81%E6%8B%9C%E4%BB%81%E6%85%95%E5%B0%BC%E9%BB%91/%E6%8B%9C%E4%BB%81/</id>
-        <title>拜仁是冠军</title>
-        <link rel="alternate" href="http://example.com/2023/01/13/%E6%88%91%E8%BF%98%E6%98%AF%E4%BC%9A%E6%94%AF%E6%8C%81%E6%8B%9C%E4%BB%81%E6%85%95%E5%B0%BC%E9%BB%91/%E6%8B%9C%E4%BB%81/"/>
-        <content type="html">&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZmNiYXllcm4uY24v&#34;&gt;拜仁是冠军！！！&lt;/span&gt;&lt;/p&gt;
-</content>
-        <updated>2023-01-13T07:38:53.914Z</updated>
     </entry>
 </feed>
