@@ -5,13 +5,13 @@
         <link>http://example.com</link>
         <description>我在这里随便写写</description>
         <language>zh-CN</language>
-        <pubDate>Sun, 29 Jan 2023 14:38:28 +0800</pubDate>
-        <lastBuildDate>Sun, 29 Jan 2023 14:38:28 +0800</lastBuildDate>
+        <pubDate>Mon, 30 Jan 2023 17:04:16 +0800</pubDate>
+        <lastBuildDate>Mon, 30 Jan 2023 17:04:16 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://example.com/2023/01/29/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TypeScript%E5%85%A5%E9%97%A8_1/</guid>
+            <guid isPermalink="true">http://example.com/2023/01/30/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TypeScript%E5%85%A5%E9%97%A8_1/</guid>
             <title>TS的的准备工作</title>
-            <link>http://example.com/2023/01/29/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TypeScript%E5%85%A5%E9%97%A8_1/</link>
-            <pubDate>Sun, 29 Jan 2023 14:38:28 +0800</pubDate>
+            <link>http://example.com/2023/01/30/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TypeScript%E5%85%A5%E9%97%A8_1/</link>
+            <pubDate>Mon, 30 Jan 2023 17:04:16 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;ts-的环境搭建&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ts-的环境搭建&#34;&gt;#&lt;/a&gt; TS 的环境搭建&lt;/h1&gt;
 &lt;h2 id=&#34;下载-nodejs&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#下载-nodejs&#34;&gt;#&lt;/a&gt; 下载 Node.js&lt;/h2&gt;
 &lt;p&gt;可以在&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ub2RlanMub3JnL3poLWNuLw==&#34;&gt; Node.js 的官网&lt;/span&gt;挑选喜欢的版本 🌝&lt;/p&gt;
