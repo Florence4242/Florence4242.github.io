@@ -5,15 +5,14 @@
         <link>http://example.com</link>
         <description>我在这里随便写写</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 31 Jan 2023 17:53:50 +0800</pubDate>
-        <lastBuildDate>Tue, 31 Jan 2023 17:53:50 +0800</lastBuildDate>
+        <pubDate>Wed, 08 Feb 2023 18:55:22 +0800</pubDate>
+        <lastBuildDate>Wed, 08 Feb 2023 18:55:22 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://example.com/2023/01/31/Cocos%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9D%9F/Cocos%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/</guid>
+            <guid isPermalink="true">http://example.com/2023/02/08/Cocos%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9D%9F/Cocos%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/</guid>
             <title>Cocos入门基础</title>
-            <link>http://example.com/2023/01/31/Cocos%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9D%9F/Cocos%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/</link>
-            <pubDate>Tue, 31 Jan 2023 17:53:50 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;这个真要准备了…… 真的…… 不过过完年再说 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLmNvY29zLmNvbS9jcmVhdG9yL21hbnVhbC96aC8=&#34;&gt;🌝&lt;/span&gt;&lt;/p&gt;
-&lt;h1 id=&#34;基础&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基础&#34;&gt;#&lt;/a&gt; 基础&lt;/h1&gt;
+            <link>http://example.com/2023/02/08/Cocos%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9D%9F/Cocos%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/</link>
+            <pubDate>Wed, 08 Feb 2023 18:55:22 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;基础&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基础&#34;&gt;#&lt;/a&gt; 基础&lt;/h1&gt;
 &lt;h2 id=&#34;sprite-的参数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#sprite-的参数&#34;&gt;#&lt;/a&gt; Sprite 的参数&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -151,6 +150,181 @@
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;node.removeFromParent()&lt;/code&gt; &lt;br&gt;
  将子节点移除出它的父节点&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/02/08/Cocos%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9D%9F/%E4%BA%8B%E4%BB%B6%E7%9B%B8%E5%85%B3/</guid>
+            <title>Cocos入门基础之：交互事件</title>
+            <link>http://example.com/2023/02/08/Cocos%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9D%9F/%E4%BA%8B%E4%BB%B6%E7%9B%B8%E5%85%B3/</link>
+            <pubDate>Wed, 08 Feb 2023 18:55:22 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;鼠标事件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#鼠标事件&#34;&gt;#&lt;/a&gt; 鼠标事件&lt;/h1&gt;
+&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;鼠标事件&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable language_&#34;&gt;this&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;node&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;on&lt;/span&gt;(&lt;span class=&#34;attr&#34;&gt;eventType&lt;/span&gt;: &lt;span class=&#34;title class_&#34;&gt;String&lt;/span&gt;, &lt;span class=&#34;attr&#34;&gt;callback&lt;/span&gt;:&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt;,&lt;span class=&#34;attr&#34;&gt;target&lt;/span&gt;:&lt;span class=&#34;built_in&#34;&gt;any&lt;/span&gt;,&lt;span class=&#34;attr&#34;&gt;useCapture&lt;/span&gt;:&lt;span class=&#34;built_in&#34;&gt;boolean&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// eventType这个参数就代表了具体的鼠标事件名称&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 鼠标点击时获取当前坐标&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable language_&#34;&gt;this&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;node&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;on&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;mousedown&amp;quot;&lt;/span&gt;, &lt;span class=&#34;function&#34;&gt;(&lt;span class=&#34;params&#34;&gt;event:cc.Event.EventMouse&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  cc.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(event.&lt;span class=&#34;title function_&#34;&gt;getLocation&lt;/span&gt;() + &lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable language_&#34;&gt;this&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;node&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;on&lt;/span&gt;(cc.&lt;span class=&#34;property&#34;&gt;Node&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;EventType&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;MOUSE_DOWN&lt;/span&gt;, &lt;span class=&#34;function&#34;&gt;(&lt;span class=&#34;params&#34;&gt;event:cc.Event.EventMouse&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  cc.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(event.&lt;span class=&#34;title function_&#34;&gt;getLocation&lt;/span&gt;() + &lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;eventType&lt;/code&gt;  这个参数就代表了具体的鼠标事件名称，但是如果需要我们死记硬背例如 “mousedown” 之类的字符串显然在开发中容易记错，所以 cocos 为我们定义了一个类  &lt;code&gt;cc.Node.EventType&lt;/code&gt; ，用于帮助我们记忆这些事件名。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;一些鼠标事件&lt;/strong&gt;&lt;/mark&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;事件类型&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;MOUSE_DOWN&lt;/td&gt;
+&lt;td&gt;鼠标按下&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MOUSE_ENTER&lt;/td&gt;
+&lt;td&gt;鼠标移入节点的范围&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MOUSE_LEAVE&lt;/td&gt;
+&lt;td&gt;鼠标移出节点的范围&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MOUSE_MOVE&lt;/td&gt;
+&lt;td&gt;鼠标移动&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MOUSE_UP&lt;/td&gt;
+&lt;td&gt;鼠标松开&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MOUSE_WHEEL&lt;/td&gt;
+&lt;td&gt;鼠标滚轮&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;event 函数&lt;/strong&gt;&lt;/mark&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;函数&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;getLocation()&lt;/td&gt;
+&lt;td&gt;获取鼠标坐标，2D 返回 cc.vec2，3D 返回 cc.vec3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;getLocationX()&lt;/td&gt;
+&lt;td&gt;获取鼠标 x 坐标&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;getLocationY()&lt;/td&gt;
+&lt;td&gt;获取鼠标 y 坐标&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;getButton()&lt;/td&gt;
+&lt;td&gt;获取鼠标按键，返回 number，0 代表左键、1 代表滚轮、2 代表右键，当然我们可以使用  &lt;code&gt;cc.Event.EventMouse&lt;/code&gt;  类提供的静态属性代替这些 012&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;监听&lt;br&gt;
+可以给一个节点添加事件监听，当然也可以去除监听， &lt;code&gt;this.node.off(eventType)&lt;/code&gt;  就可以去除掉相对应的事件监听。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;键盘事件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#键盘事件&#34;&gt;#&lt;/a&gt; 键盘事件&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;键盘和鼠标事件类似，只不过键盘事件是游戏的全局事件，所以他通过&lt;br&gt;
+ &lt;code&gt;cc.systemEvent.on(eventType, callback)&lt;/code&gt;  来添加，用法和鼠标事件基本一样：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;键盘事件的用法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;键盘事件的用法&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cc.&lt;span class=&#34;property&#34;&gt;systemEvent&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;on&lt;/span&gt;(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  cc.&lt;span class=&#34;property&#34;&gt;SystemEvent&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;EventType&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;KEY_DOWN&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;function&#34;&gt;(&lt;span class=&#34;params&#34;&gt;event: cc.Event.EventKeyboard&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &amp;#123;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 这里的event可以拿到对应的键盘按键的编号，比如[A]键等于65。&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable constant_&#34;&gt;EY&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;macro.KEY 的使用方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;macro.KEY 的使用方法&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cc.&lt;span class=&#34;property&#34;&gt;systemEvent&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;on&lt;/span&gt;(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  cc.&lt;span class=&#34;property&#34;&gt;SystemEvent&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;EventType&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;KEY_DOWN&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;function&#34;&gt;(&lt;span class=&#34;params&#34;&gt;event: cc.Event.EventKeyboard&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;// cc.log(event.keyCode)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (event.&lt;span class=&#34;property&#34;&gt;keyCode&lt;/span&gt; === cc.&lt;span class=&#34;property&#34;&gt;macro&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;KEY&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;a&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      cc.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;按下了a键&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125; &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      cc.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;按了其他键&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;一些键盘事件&lt;/strong&gt;&lt;/mark&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;事件类型&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;KEY_UP&lt;/td&gt;
+&lt;td&gt;键盘被按下&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;KEY_DOWN&lt;/td&gt;
+&lt;td&gt;键盘松开&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;触摸事件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#触摸事件&#34;&gt;#&lt;/a&gt; 触摸事件&lt;/h1&gt;
+&lt;p&gt;触摸事件和鼠标事件也是一样的，只不过事件类型改为：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;事件类型&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;TOUCH_START&lt;/td&gt;
+&lt;td&gt;触摸开始&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TOUCH_MOVE&lt;/td&gt;
+&lt;td&gt;触摸移动&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TOUCH_END&lt;/td&gt;
+&lt;td&gt;触摸结束&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TOUCH_CANCEL&lt;/td&gt;
+&lt;td&gt;触摸取消&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;并且，回调函数中的 event 只有坐标信息，没有按键信息。除此之外，触摸事件比鼠标事件多了一个&lt;mark&gt;多点触控编码&lt;/mark&gt;， &lt;code&gt;event.getID()&lt;/code&gt;  可以获取到触控的手指编码，第一个是 0，第二个是 1，以此类推&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;触摸事件的用法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;触摸事件的用法&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable language_&#34;&gt;this&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;node&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;on&lt;/span&gt;(cc.&lt;span class=&#34;property&#34;&gt;Node&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;EventType&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;TOUCH_START&lt;/span&gt;, &lt;span class=&#34;function&#34;&gt;(&lt;span class=&#34;params&#34;&gt;event: cc.Event.EventTouch&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  cc.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(event.&lt;span class=&#34;title function_&#34;&gt;getLocation&lt;/span&gt;() + &lt;span class=&#34;string&#34;&gt;&amp;quot;,&amp;quot;&lt;/span&gt; + event.&lt;span class=&#34;title function_&#34;&gt;getID&lt;/span&gt;());&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;自定义事件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#自定义事件&#34;&gt;#&lt;/a&gt; 自定义事件&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;除了可以使用系统自带的 3 类事件，我们还可以自己定义事件类型。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;自定义事件的作用有点类似于 “微信小游戏制作工具” 中的 “通知”，即某些节点在特定情况下可以向其他节点发送通知（触发自定义事件），其他需要监听该自定义事件的节点在收到通知后可以做出响应。&lt;br&gt;
+例如飞机大战中的子弹，当子弹碰撞到敌机时，可以向该敌机发送通知（触发该敌机的自定义事件），该敌机在事件被触发后可以做出相应的操作，例如减血。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;mark&gt;&lt;strong&gt;定义自定义事件的监听：&lt;/strong&gt;&lt;/mark&gt;&lt;br&gt;
+ &lt;code&gt;this.node.on(&amp;quot;myEvent&amp;quot;,callback);&lt;/code&gt; ，myEvent 是自定义事件的名称，由我们自己定义。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;触发该自定义事件的方式有两种：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;this.node.emit(&amp;quot;myEvent&amp;quot;,arg0,arg1,……,arg5);&lt;/code&gt;  后面的 arg0~arg5 参数可以有也可以没有，他们是给事件中传递参数用的。&lt;/p&gt;
+&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;this.node.emit&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 需要触发事件的精灵A中&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable language_&#34;&gt;this&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;node&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;on&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;msg&amp;quot;&lt;/span&gt;, &lt;span class=&#34;function&#34;&gt;(&lt;span class=&#34;params&#34;&gt;arg0: &lt;span class=&#34;built_in&#34;&gt;Date&lt;/span&gt;, arg1: &lt;span class=&#34;built_in&#34;&gt;String&lt;/span&gt;, arg2: &lt;span class=&#34;built_in&#34;&gt;String&lt;/span&gt;&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  cc.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;自定义事件触发&amp;quot;&lt;/span&gt; + arg0.&lt;span class=&#34;title function_&#34;&gt;getFullYear&lt;/span&gt;());&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  cc.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(arg1, arg2);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 调用事件的精灵B中&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable language_&#34;&gt;this&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;node&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;on&lt;/span&gt;(cc.&lt;span class=&#34;property&#34;&gt;Node&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;EventType&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;MOUSE_DOWN&lt;/span&gt;, &lt;span class=&#34;function&#34;&gt;() =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  cc.&lt;span class=&#34;title function_&#34;&gt;find&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;avatar&amp;quot;&lt;/span&gt;).&lt;span class=&#34;title function_&#34;&gt;emit&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;msg&amp;quot;&lt;/span&gt;, &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Date&lt;/span&gt;(), &lt;span class=&#34;string&#34;&gt;&amp;quot;hello&amp;quot;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;quot;world!&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;mark&gt;&lt;strong&gt;分发到事件流&lt;/strong&gt;&lt;/mark&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;自定义事件-分发到事件流&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; event = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; cc.&lt;span class=&#34;property&#34;&gt;Event&lt;/span&gt;.&lt;span class=&#34;title class_&#34;&gt;EventCustom&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;myEvent&amp;quot;&lt;/span&gt;, &lt;span class=&#34;literal&#34;&gt;true&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;event.&lt;span class=&#34;title function_&#34;&gt;setUserData&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;hello&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable language_&#34;&gt;this&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;node&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;dispatchEvent&lt;/span&gt;(event);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;其中， &lt;code&gt;event.setUserData()&lt;/code&gt;  方法是给自定义事件中添加 &lt;code&gt;detail&lt;/code&gt;  属性，这个可以用来传递参数。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
  ]]></description>
