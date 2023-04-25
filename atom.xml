@@ -3,7 +3,20 @@
     <id>http://example.com</id>
     <title>Florence的城堡</title>
     <link href="http://example.com" />
-    <updated>2023-04-25T09:02:00.333Z</updated>
+    <updated>2023-04-25T09:30:05.130Z</updated>
+    <entry>
+        <id>http://example.com/2023/04/25/%E4%B8%80%E4%BA%9B%E7%90%86%E8%AE%BA/%E5%89%8D%E7%AB%AF%E7%9A%84%E7%90%86%E8%AE%BA/vue3/</id>
+        <title>Vue3</title>
+        <link rel="alternate" href="http://example.com/2023/04/25/%E4%B8%80%E4%BA%9B%E7%90%86%E8%AE%BA/%E5%89%8D%E7%AB%AF%E7%9A%84%E7%90%86%E8%AE%BA/vue3/"/>
+        <content type="html">&lt;h1 id=&#34;函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数&#34;&gt;#&lt;/a&gt; 函数&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TS 中函数的定义和 JS 语法一样，但是多了&lt;strong&gt;数据校验&lt;/strong&gt;。&lt;br&gt;
+函数的参数需要根据类型来定义，每个函数都 &lt;code&gt;必须申明返回值&lt;/code&gt; 。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;函数参数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数参数&#34;&gt;#&lt;/a&gt; 函数参数&lt;/h2&gt;
+</content>
+        <updated>2023-04-25T09:30:05.130Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%80%E4%BA%9Bcss%E6%A0%B7%E5%BC%8F/git%E7%9A%84%E4%B8%80%E4%BA%9B%E6%93%8D%E4%BD%9C/</id>
         <title>git和hexo的一些常用命令</title>
@@ -489,18 +502,18 @@ function fn (参数：类型，参数：类型): 返回值类型 {&lt;br&gt;
         <updated>2023-01-13T08:11:15.182Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Vue/Vue/</id>
-        <title>Vue3</title>
-        <link rel="alternate" href="http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Vue/Vue/"/>
-        <content type="html">&lt;p&gt;3 确实比 2 要爽一些，但是 3 的资源有点少。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbi52dWVqcy5vcmcvZ3VpZGUvaW50cm9kdWN0aW9uLmh0bWw=&#34;&gt;Vue3&lt;/span&gt;&lt;/p&gt;
-</content>
-        <updated>2023-01-13T08:11:15.181Z</updated>
-    </entry>
-    <entry>
         <id>http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/Typescript/</id>
         <title>Typescript</title>
         <link rel="alternate" href="http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/Typescript/"/>
         <content type="html">&lt;p&gt;来早了，先去&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudHlwZXNjcmlwdGxhbmcub3JnLw==&#34;&gt;官网&lt;/span&gt;看看？&lt;/p&gt;
+</content>
+        <updated>2023-01-13T08:11:15.181Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Vue/Vue/</id>
+        <title>Vue3</title>
+        <link rel="alternate" href="http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Vue/Vue/"/>
+        <content type="html">&lt;p&gt;3 确实比 2 要爽一些，但是 3 的资源有点少。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbi52dWVqcy5vcmcvZ3VpZGUvaW50cm9kdWN0aW9uLmh0bWw=&#34;&gt;Vue3&lt;/span&gt;&lt;/p&gt;
 </content>
         <updated>2023-01-13T08:11:15.181Z</updated>
     </entry>
