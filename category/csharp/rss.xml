@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Florence的城堡 • Posts by &#34;csharp&#34; category</title>
+        <link>http://example.com</link>
+        <description>我在这里随便写写</description>
+        <language>zh-CN</language>
+        <pubDate>Fri, 03 Mar 2023 13:39:25 +0800</pubDate>
+        <lastBuildDate>Fri, 03 Mar 2023 13:39:25 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/03/03/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/CSharp-1/</guid>
+            <title>CSharp入门！</title>
+            <link>http://example.com/2023/03/03/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/CSharp-1/</link>
+            <pubDate>Fri, 03 Mar 2023 13:39:25 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLWNuL2RvdG5ldC9jc2hhcnAv&#34;&gt;官网&lt;/span&gt;！&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
