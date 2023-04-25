@@ -5,13 +5,13 @@
         <link>http://example.com</link>
         <description>我在这里随便写写</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 13 Feb 2023 18:41:21 +0800</pubDate>
-        <lastBuildDate>Mon, 13 Feb 2023 18:41:21 +0800</lastBuildDate>
+        <pubDate>Wed, 15 Feb 2023 10:18:49 +0800</pubDate>
+        <lastBuildDate>Wed, 15 Feb 2023 10:18:49 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://example.com/2023/02/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8D%E5%A4%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%B7%A5%E5%85%B7/%E4%B8%80%E4%BA%9B%E5%B0%8F%E5%B7%A5%E5%85%B7%20copy/</guid>
+            <guid isPermalink="true">http://example.com/2023/02/15/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8D%E5%A4%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%B7%A5%E5%85%B7/%E4%B8%80%E4%BA%9B%E5%B0%8F%E5%B7%A5%E5%85%B7%20copy/</guid>
             <title>计算相差天数</title>
-            <link>http://example.com/2023/02/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8D%E5%A4%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%B7%A5%E5%85%B7/%E4%B8%80%E4%BA%9B%E5%B0%8F%E5%B7%A5%E5%85%B7%20copy/</link>
-            <pubDate>Mon, 13 Feb 2023 18:41:21 +0800</pubDate>
+            <link>http://example.com/2023/02/15/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8D%E5%A4%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%B7%A5%E5%85%B7/%E4%B8%80%E4%BA%9B%E5%B0%8F%E5%B7%A5%E5%85%B7%20copy/</link>
+            <pubDate>Wed, 15 Feb 2023 10:18:49 +0800</pubDate>
             <description><![CDATA[ &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;获取当前时间与时间显示格式&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
