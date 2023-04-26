@@ -7,6 +7,8 @@
         <language>zh-CN</language>
         <pubDate>Tue, 25 Apr 2023 18:02:46 +0800</pubDate>
         <lastBuildDate>Tue, 25 Apr 2023 18:02:46 +0800</lastBuildDate>
+        <category>Foo</category>
+        <category>Bar</category>
         <category>Hexo</category>
         <category>教程</category>
         <item>
@@ -17,9 +19,7 @@
             <description><![CDATA[ &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;一些 css 样式&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&#34;highlight ts&#34;&gt;&lt;figcaption&gt;&lt;span&gt;git&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 这些不必多逼逼&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git add .&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git commit -m&lt;span class=&#34;string&#34;&gt;&amp;quot;xxxxx&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git push&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git checkout master&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git merge zz&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;figure class=&#34;highlight ts&#34;&gt;&lt;figcaption&gt;&lt;span&gt;hexo&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 这些不必多逼逼&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo s&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo n &lt;span class=&#34;string&#34;&gt;&amp;quot;新建一篇这个名为这个的笔记&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo clean&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo g&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo d&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
- ]]></description>
+&lt;figure class=&#34;highlight ts&#34;&gt;&lt;figcaption data-lang=&#34;TypeScript&#34;&gt;&lt;span&gt;git&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 这些不必多逼逼&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git add &lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git commit &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;m&lt;span class=&#34;token string&#34;&gt;&#34;xxxxx&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git push&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git checkout master&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git merge zz&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight ts&#34;&gt;&lt;figcaption data-lang=&#34;TypeScript&#34;&gt;&lt;span&gt;hexo&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 这些不必多逼逼&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo s&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo n &lt;span class=&#34;token string&#34;&gt;&#34;新建一篇这个名为这个的笔记&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo clean&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo g&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo d&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
             <guid isPermalink="true">http://example.com/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%80%E4%BA%9Bcss%E6%A0%B7%E5%BC%8F/%E4%B8%80%E4%BA%9Bcss%E6%A0%B7%E5%BC%8F/</guid>
@@ -29,28 +29,42 @@
             <description><![CDATA[ &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;一些 css 样式&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&#34;highlight css&#34;&gt;&lt;figcaption&gt;&lt;span&gt;一些常用以及不常用但比较重要的css样式&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/**&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * 一些常用以及不常用但比较重要的css样式&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * @author Florence&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;*/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/* 根据文字长度，width宽度自适应 */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attribute&#34;&gt;width&lt;/span&gt;: fit-content;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/* 溢出文字显示省略号（单行） */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attribute&#34;&gt;overflow&lt;/span&gt;: hidden;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attribute&#34;&gt;text-overflow&lt;/span&gt;: ellipsis;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attribute&#34;&gt;white-space&lt;/span&gt;: nowrap;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/* 中划线以及控制中划线的宽度和颜色 */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attribute&#34;&gt;text-decoration&lt;/span&gt;: line-through;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attribute&#34;&gt;text-decoration&lt;/span&gt;-thickness: &lt;span class=&#34;number&#34;&gt;4&lt;/span&gt;rpx;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attribute&#34;&gt;text-decoration-color&lt;/span&gt;: &lt;span class=&#34;number&#34;&gt;#ff0000aa&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
- ]]></description>
+&lt;figure class=&#34;highlight css&#34;&gt;&lt;figcaption data-lang=&#34;CSS&#34;&gt;&lt;span&gt;一些常用以及不常用但比较重要的css样式&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/**&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; * 一些常用以及不常用但比较重要的 css 样式&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; * @author Florence&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;*/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* 根据文字长度，width 宽度自适应 */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token property&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; fit-content&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* 溢出文字显示省略号（单行） */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token property&#34;&gt;overflow&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; hidden&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token property&#34;&gt;text-overflow&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; ellipsis&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token property&#34;&gt;white-space&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; nowrap&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* 中划线以及控制中划线的宽度和颜色 */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token property&#34;&gt;text-decoration&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; line-through&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token property&#34;&gt;text-decoration-thickness&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 4rpx&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token property&#34;&gt;text-decoration-color&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; #ff0000aa&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
             <guid isPermalink="true">http://example.com/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/%E5%87%BD%E6%95%B0/</guid>
             <title>TS函数</title>
             <link>http://example.com/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/%E5%87%BD%E6%95%B0/</link>
             <pubDate>Tue, 25 Apr 2023 18:02:46 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数&#34;&gt;#&lt;/a&gt; 函数&lt;/h1&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;函数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#函数&#34;&gt;#&lt;/a&gt; 函数&lt;/h1&gt;
 &lt;blockquote&gt;
-&lt;p&gt;TS 中函数的定义和 JS 语法一样，但是多了&lt;strong&gt;数据校验&lt;/strong&gt;。&lt;br&gt;
+&lt;p&gt;TS 中函数的定义和 JS 语法一样，但是多了&lt;strong&gt;数据校验&lt;/strong&gt;。&lt;br /&gt;
 函数的参数需要根据类型来定义，每个函数都 &lt;code&gt;必须申明返回值&lt;/code&gt; 。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;函数参数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数参数&#34;&gt;#&lt;/a&gt; 函数参数&lt;/h2&gt;
-&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;函数参数&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;fn&lt;/span&gt; (&lt;span class=&#34;attr&#34;&gt;id&lt;/span&gt;:&lt;span class=&#34;built_in&#34;&gt;number&lt;/span&gt;,&lt;span class=&#34;attr&#34;&gt;name&lt;/span&gt;:&lt;span class=&#34;built_in&#34;&gt;string&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(id);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(name);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;函数参数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#函数参数&#34;&gt;#&lt;/a&gt; 函数参数&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-TypeScript&#34;&gt;    function fn (id:number,name:string) &amp;#123;
+        console.log(id);
+        console.log(name);
+    &amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;在型参里面定义类型，传递的必须按照这个类型。&lt;mark&gt;一旦定义型参，那就必须传递参数&lt;/mark&gt;。&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;函数的返回值&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数的返回值&#34;&gt;#&lt;/a&gt; 函数的返回值&lt;/h2&gt;
-&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;函数的返回值&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// void代表函数没有返回的结果&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;demo&lt;/span&gt; ():&lt;span class=&#34;built_in&#34;&gt;void&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;// 在编程规范中，return必须写&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;函数的返回值&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#函数的返回值&#34;&gt;#&lt;/a&gt; 函数的返回值&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Typescript&#34;&gt;// void代表函数没有返回的结果
+function demo ():void &amp;#123;
+    // 在编程规范中，return必须写
+    return
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;void 默认没有返回结果&lt;/p&gt;
-&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;函数的返回值&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// void代表函数没有返回的结果&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;demo&lt;/span&gt; ():&lt;span class=&#34;built_in&#34;&gt;number&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;// 在编程规范中，return必须写&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;123&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;res&lt;/span&gt;:&lt;span class=&#34;built_in&#34;&gt;number&lt;/span&gt; = demo&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Typescript&#34;&gt;// void代表函数没有返回的结果
+function demo ():number &amp;#123;
+    // 在编程规范中，return必须写
+    return 123
+&amp;#125;
+const res:number = demo
+&lt;/code&gt;&lt;/pre&gt;
  ]]></description>
         </item>
         <item>
@@ -58,7 +72,7 @@
             <title>TS的类型声明</title>
             <link>http://example.com/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TS%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%A3%B0%E6%98%8E/</link>
             <pubDate>Tue, 25 Apr 2023 18:02:46 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;基本类型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基本类型&#34;&gt;#&lt;/a&gt; 基本类型&lt;/h1&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;基本类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基本类型&#34;&gt;#&lt;/a&gt; 基本类型&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;类型声明&lt;/p&gt;
@@ -71,17 +85,42 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;blockquote&gt;
-&lt;p&gt;let 变量：类型；&lt;br&gt;
-let 变量：类型 = 值；&lt;br&gt;
-function fn (参数：类型，参数：类型): 返回值类型 {&lt;br&gt;
-…&lt;br&gt;
+&lt;p&gt;let 变量：类型；&lt;br /&gt;
+let 变量：类型 = 值；&lt;br /&gt;
+function fn (参数：类型，参数：类型): 返回值类型 {&lt;br /&gt;
+...&lt;br /&gt;
 }&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;语法&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 声明一个变量a，同时制定它的类型为Number&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;a&lt;/span&gt;: &lt;span class=&#34;title class_&#34;&gt;Number&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// a的类型设置为了Number，在以后的使用过程中a只能是数字&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;a = &lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;a = &lt;span class=&#34;number&#34;&gt;33&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// a = &amp;quot;hello&amp;quot;;  // 会报错标红&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;b&lt;/span&gt;: &lt;span class=&#34;title class_&#34;&gt;String&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;b = &lt;span class=&#34;string&#34;&gt;&amp;quot;hello&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// b = 123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 声明完变量直接进行赋值&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;c&lt;/span&gt;: &lt;span class=&#34;title class_&#34;&gt;Boolean&lt;/span&gt; = &lt;span class=&#34;literal&#34;&gt;false&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;c = &lt;span class=&#34;literal&#34;&gt;true&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 如果变量的声明和赋值是同时进行的，TS可以自动对变量进行类型检测&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; c = &lt;span class=&#34;literal&#34;&gt;false&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;c = &lt;span class=&#34;literal&#34;&gt;true&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// c = 123&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// js中的函数是不考虑参数的类型和个数的&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;sum&lt;/span&gt; (a,b) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; a + b;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-TypeScript&#34;&gt;    // 声明一个变量a，同时制定它的类型为Number
+    let a: Number;
+
+    // a的类型设置为了Number，在以后的使用过程中a只能是数字
+    a = 10;
+    a = 33;
+    // a = &amp;quot;hello&amp;quot;;  // 会报错标红
+    let b: String;
+    b = &amp;quot;hello&amp;quot;
+    // b = 123;
+
+    // 声明完变量直接进行赋值
+    let c: Boolean = false;
+    c = true;
+
+    // 如果变量的声明和赋值是同时进行的，TS可以自动对变量进行类型检测
+    let c = false;
+    c = true;
+
+    // c = 123
+
+    // js中的函数是不考虑参数的类型和个数的
+    function sum (a,b) &amp;#123;
+      return a + b;
+    &amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;自动类型判断&lt;/p&gt;
@@ -102,7 +141,30 @@ function fn (参数：类型，参数：类型): 返回值类型 {&lt;br&gt;
             <description><![CDATA[ &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;获取当前时间与时间显示格式&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;计算相差天数&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/**&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * 计算相差天数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * dateAndTime显示日期和时间；&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * dateOnly只显示日期；&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * timeOnly只显示时间&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * &lt;span class=&#34;doctag&#34;&gt;@author&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;Florence&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;*/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;fnSurplus&lt;/span&gt; = (&lt;span class=&#34;params&#34;&gt;&lt;/span&gt;) =&amp;gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;comment&#34;&gt;// console.log(&amp;quot;计算剩余时间&amp;quot;);&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	_this.&lt;span class=&#34;property&#34;&gt;end_time&lt;/span&gt; = _this.&lt;span class=&#34;property&#34;&gt;season_data&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;end_time&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;split&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;-&amp;quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;comment&#34;&gt;//date1结束时间&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; date1 = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Date&lt;/span&gt;(_this.&lt;span class=&#34;property&#34;&gt;end_time&lt;/span&gt;[&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;],_this.&lt;span class=&#34;property&#34;&gt;end_time&lt;/span&gt;[&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;] - &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;,_this.&lt;span class=&#34;property&#34;&gt;end_time&lt;/span&gt;[&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;]);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;comment&#34;&gt;//date2当前时间&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; date2 = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Date&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	date1 = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Date&lt;/span&gt;(date1.&lt;span class=&#34;title function_&#34;&gt;getFullYear&lt;/span&gt;(), date1.&lt;span class=&#34;title function_&#34;&gt;getMonth&lt;/span&gt;(), date1.&lt;span class=&#34;title function_&#34;&gt;getDate&lt;/span&gt;());&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	date2 = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Date&lt;/span&gt;(date2.&lt;span class=&#34;title function_&#34;&gt;getFullYear&lt;/span&gt;(), date2.&lt;span class=&#34;title function_&#34;&gt;getMonth&lt;/span&gt;(), date2.&lt;span class=&#34;title function_&#34;&gt;getDate&lt;/span&gt;());&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;const&lt;/span&gt; diff = date1.&lt;span class=&#34;title function_&#34;&gt;getTime&lt;/span&gt;() - date2.&lt;span class=&#34;title function_&#34;&gt;getTime&lt;/span&gt;(); &lt;span class=&#34;comment&#34;&gt;//目标时间减去当前时间&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	_this.&lt;span class=&#34;property&#34;&gt;surplus_days&lt;/span&gt; = diff / (&lt;span class=&#34;number&#34;&gt;24&lt;/span&gt; * &lt;span class=&#34;number&#34;&gt;60&lt;/span&gt; * &lt;span class=&#34;number&#34;&gt;60&lt;/span&gt; * &lt;span class=&#34;number&#34;&gt;1000&lt;/span&gt;);  &lt;span class=&#34;comment&#34;&gt;//计算当前时间与结束时间之间相差天数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;comment&#34;&gt;// console.log(&amp;quot;diff&amp;quot;,diff);&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;comment&#34;&gt;// console.log(&amp;quot;相差天数&amp;quot;,_this.surplus_days);&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-TypeScript&#34;&gt;
+/**
+ * 计算相差天数
+ * dateAndTime显示日期和时间；
+ * dateOnly只显示日期；
+ * timeOnly只显示时间
+ * @author Florence
+*/
+const fnSurplus = () =&amp;gt; &amp;#123;
+	// console.log(&amp;quot;计算剩余时间&amp;quot;);
+	_this.end_time = _this.season_data.end_time.split(&amp;quot;-&amp;quot;)
+	//date1结束时间
+	let date1 = new Date(_this.end_time[0],_this.end_time[1] - 1,_this.end_time[2]);
+	//date2当前时间
+	let date2 = new Date();
+	date1 = new Date(date1.getFullYear(), date1.getMonth(), date1.getDate());
+	date2 = new Date(date2.getFullYear(), date2.getMonth(), date2.getDate());
+	const diff = date1.getTime() - date2.getTime(); //目标时间减去当前时间
+	_this.surplus_days = diff / (24 * 60 * 60 * 1000);  //计算当前时间与结束时间之间相差天数
+	// console.log(&amp;quot;diff&amp;quot;,diff);
+	// console.log(&amp;quot;相差天数&amp;quot;,_this.surplus_days);
+&amp;#125;
+
+&lt;/code&gt;&lt;/pre&gt;
  ]]></description>
         </item>
         <item>
@@ -113,7 +175,58 @@ function fn (参数：类型，参数：类型): 返回值类型 {&lt;br&gt;
             <description><![CDATA[ &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;获取当前时间与时间显示格式&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;获取时间与格式&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;51&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/**&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * 时间格式枚举&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * dateAndTime显示日期和时间；&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * dateOnly只显示日期；&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * timeOnly只显示时间&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * &lt;span class=&#34;doctag&#34;&gt;@author&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;Florence&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;*/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;enum&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;DateFormat&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    dateAndTime,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    dateOnly,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    timeOnly&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/**&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * 获取当前日期字符串&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * &lt;span class=&#34;doctag&#34;&gt;@param&lt;/span&gt; format 日期格式&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * &lt;span class=&#34;doctag&#34;&gt;@param&lt;/span&gt; showMilliseconds 是否显示毫秒&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * &lt;span class=&#34;doctag&#34;&gt;@returns&lt;/span&gt; 日期时间字符串&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; * &lt;span class=&#34;doctag&#34;&gt;@author&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;Florence&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt; */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;getTimeStr&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;format: DateFormat = DateFormat.dateAndTime, showMilliseconds: &lt;span class=&#34;built_in&#34;&gt;boolean&lt;/span&gt; = &lt;span class=&#34;literal&#34;&gt;true&lt;/span&gt;&lt;/span&gt;): &lt;span class=&#34;built_in&#34;&gt;string&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; date = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Date&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; dateStr = &lt;span class=&#34;string&#34;&gt;`&lt;span class=&#34;subst&#34;&gt;$&amp;#123;date.getFullYear()&amp;#125;&lt;/span&gt;-&lt;span class=&#34;subst&#34;&gt;$&amp;#123;date.getMonth()&amp;#125;&lt;/span&gt;-&lt;span class=&#34;subst&#34;&gt;$&amp;#123;date.getDate()&amp;#125;&lt;/span&gt;`&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; timeStr = &lt;span class=&#34;string&#34;&gt;`&lt;span class=&#34;subst&#34;&gt;$&amp;#123;formatTimeNum(date.getHours())&amp;#125;&lt;/span&gt;:&lt;span class=&#34;subst&#34;&gt;$&amp;#123;formatTimeNum(date.getMinutes())&amp;#125;&lt;/span&gt;:&lt;span class=&#34;subst&#34;&gt;$&amp;#123;formatTimeNum(date.getSeconds())&amp;#125;&lt;/span&gt;`&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (showMilliseconds) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        timeStr += &lt;span class=&#34;string&#34;&gt;&amp;quot;.&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; millis = date.&lt;span class=&#34;title function_&#34;&gt;getMilliseconds&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (millis &amp;lt; &lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            timeStr += &lt;span class=&#34;string&#34;&gt;&amp;quot;00&amp;quot;&lt;/span&gt; + millis;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125; &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (millis &amp;lt; &lt;span class=&#34;number&#34;&gt;100&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            timeStr += &lt;span class=&#34;string&#34;&gt;&amp;quot;0&amp;quot;&lt;/span&gt; + millis;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125; &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            timeStr += millis&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (format == &lt;span class=&#34;title class_&#34;&gt;DateFormat&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;dateAndTime&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; dateStr + &lt;span class=&#34;string&#34;&gt;&amp;quot; &amp;quot;&lt;/span&gt; + timeStr;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (format == &lt;span class=&#34;title class_&#34;&gt;DateFormat&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;dateOnly&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; dateStr;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (format == &lt;span class=&#34;title class_&#34;&gt;DateFormat&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;timeOnly&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; timeStr;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt;  &lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;formatTimeNum&lt;/span&gt; (&lt;span class=&#34;attr&#34;&gt;timeNum&lt;/span&gt;: &lt;span class=&#34;built_in&#34;&gt;number&lt;/span&gt;): &lt;span class=&#34;built_in&#34;&gt;string&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; timeNum &amp;lt; &lt;span class=&#34;number&#34;&gt;10&lt;/span&gt; ? &lt;span class=&#34;string&#34;&gt;&amp;quot;0&amp;quot;&lt;/span&gt; + timeNum : timeNum;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-TypeScript&#34;&gt;/**
+ * 时间格式枚举
+ * dateAndTime显示日期和时间；
+ * dateOnly只显示日期；
+ * timeOnly只显示时间
+ * @author Florence
+*/
+export enum DateFormat &amp;#123;
+    dateAndTime,
+    dateOnly,
+    timeOnly
+&amp;#125;
+
+/**
+ * 获取当前日期字符串
+ * @param format 日期格式
+ * @param showMilliseconds 是否显示毫秒
+ * @returns 日期时间字符串
+ * @author Florence
+ */
+
+export function getTimeStr(format: DateFormat = DateFormat.dateAndTime, showMilliseconds: boolean = true): string &amp;#123;
+    let date = new Date();
+    let dateStr = `$&amp;#123;date.getFullYear()&amp;#125;-$&amp;#123;date.getMonth()&amp;#125;-$&amp;#123;date.getDate()&amp;#125;`;
+    let timeStr = `$&amp;#123;formatTimeNum(date.getHours())&amp;#125;:$&amp;#123;formatTimeNum(date.getMinutes())&amp;#125;:$&amp;#123;formatTimeNum(date.getSeconds())&amp;#125;`;
+    if (showMilliseconds) &amp;#123;
+        timeStr += &amp;quot;.&amp;quot;;
+        let millis = date.getMilliseconds();
+        if (millis &amp;lt; 10) &amp;#123;
+            timeStr += &amp;quot;00&amp;quot; + millis;
+        &amp;#125; else if (millis &amp;lt; 100) &amp;#123;
+            timeStr += &amp;quot;0&amp;quot; + millis;
+        &amp;#125; else &amp;#123;
+            timeStr += millis
+        &amp;#125;
+    &amp;#125;
+    if (format == DateFormat.dateAndTime) &amp;#123;
+        return dateStr + &amp;quot; &amp;quot; + timeStr;
+    &amp;#125;
+    if (format == DateFormat.dateOnly) &amp;#123;
+        return dateStr;
+    &amp;#125;
+    if (format == DateFormat.timeOnly) &amp;#123;
+        return timeStr;
+    &amp;#125;
+    return  &amp;quot;&amp;quot;;
+&amp;#125;
+
+function formatTimeNum (timeNum: number): string &amp;#123;
+    return timeNum &amp;lt; 10 ? &amp;quot;0&amp;quot; + timeNum : timeNum;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
  ]]></description>
         </item>
         <item>
@@ -121,22 +234,28 @@ function fn (参数：类型，参数：类型): 返回值类型 {&lt;br&gt;
             <title>TS的的准备工作</title>
             <link>http://example.com/2023/01/30/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TypeScript%E5%85%A5%E9%97%A8_1/</link>
             <pubDate>Mon, 30 Jan 2023 17:04:16 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;ts-的环境搭建&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ts-的环境搭建&#34;&gt;#&lt;/a&gt; TS 的环境搭建&lt;/h1&gt;
-&lt;h2 id=&#34;下载-nodejs&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#下载-nodejs&#34;&gt;#&lt;/a&gt; 下载 Node.js&lt;/h2&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;ts-的环境搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ts-的环境搭建&#34;&gt;#&lt;/a&gt; TS 的环境搭建&lt;/h1&gt;
+&lt;h2 id=&#34;下载-nodejs&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下载-nodejs&#34;&gt;#&lt;/a&gt; 下载 Node.js&lt;/h2&gt;
 &lt;p&gt;可以在&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ub2RlanMub3JnL3poLWNuLw==&#34;&gt; Node.js 的官网&lt;/span&gt;挑选喜欢的版本 🌝&lt;/p&gt;
-&lt;h2 id=&#34;安装-nodejs&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#安装-nodejs&#34;&gt;#&lt;/a&gt; 安装 Node.js&lt;/h2&gt;
+&lt;h2 id=&#34;安装-nodejs&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装-nodejs&#34;&gt;#&lt;/a&gt; 安装 Node.js&lt;/h2&gt;
 &lt;p&gt;呐，哒哒哒一直点下一步&lt;/p&gt;
-&lt;h2 id=&#34;使用-npm-全局安装-typescript&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用-npm-全局安装-typescript&#34;&gt;#&lt;/a&gt; 使用 npm 全局安装 TypeScript&lt;/h2&gt;
-&lt;p&gt;・进入命令行&lt;br&gt;
+&lt;h2 id=&#34;使用-npm-全局安装-typescript&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-npm-全局安装-typescript&#34;&gt;#&lt;/a&gt; 使用 npm 全局安装 TypeScript&lt;/h2&gt;
+&lt;p&gt;・进入命令行&lt;br /&gt;
 ・在命令行输入&lt;/p&gt;
-&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;scanner&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ npm i -g typescript&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;或&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$ cnpm install -g typescript&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;或&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$ yarn &lt;span class=&#34;variable language_&#34;&gt;global&lt;/span&gt; add typescript&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id=&#34;创建一个-ts-文件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#创建一个-ts-文件&#34;&gt;#&lt;/a&gt; 创建一个 TS 文件&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-TypeScript&#34;&gt;$ npm i -g typescript
+或
+$ cnpm install -g typescript
+或
+$ yarn global add typescript
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;创建一个-ts-文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建一个-ts-文件&#34;&gt;#&lt;/a&gt; 创建一个 TS 文件&lt;/h2&gt;
 &lt;p&gt;呐，还上不了图……，自己建着玩吧……&lt;/p&gt;
-&lt;h2 id=&#34;使用-tsc-对-ts-文件进行编译&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用-tsc-对-ts-文件进行编译&#34;&gt;#&lt;/a&gt; 使用 tsc 对 ts 文件进行编译&lt;/h2&gt;
-&lt;p&gt;・进入命令行&lt;br&gt;
-・进入 ts 文件所在的目录&lt;br&gt;
+&lt;h2 id=&#34;使用-tsc-对-ts-文件进行编译&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-tsc-对-ts-文件进行编译&#34;&gt;#&lt;/a&gt; 使用 tsc 对 ts 文件进行编译&lt;/h2&gt;
+&lt;p&gt;・进入命令行&lt;br /&gt;
+・进入 ts 文件所在的目录&lt;br /&gt;
 ・执行命令&lt;/p&gt;
-&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;scanner&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ tsc xxx.&lt;span class=&#34;property&#34;&gt;ts&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-TypeScript&#34;&gt;$ tsc xxx.ts
+&lt;/code&gt;&lt;/pre&gt;
  ]]></description>
         </item>
         <item>

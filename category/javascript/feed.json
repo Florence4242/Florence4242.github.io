@@ -9,7 +9,7 @@
             "url": "http://example.com/2023/04/25/%E4%B8%80%E4%BA%9B%E7%90%86%E8%AE%BA/%E5%89%8D%E7%AB%AF%E7%9A%84%E7%90%86%E8%AE%BA/JavaScript/",
             "title": "JavaScript",
             "date_published": "2023-04-25T10:02:46.873Z",
-            "content_html": "<h1 id=\"javascript-中的数据类型\"><a class=\"markdownIt-Anchor\" href=\"#javascript-中的数据类型\">#</a> JavaScript 中的数据类型</h1>\n<blockquote>\n<p>在 JavaScript 中，我们可以分成两种类型：</p>\n<p><strong>基本类型</strong> &gt; <strong>复杂类型</strong><br>\n两种类型的区别是： <code>存储位置不同</code></p>\n</blockquote>\n<h2 id=\"基本数据类型\"><a class=\"markdownIt-Anchor\" href=\"#基本数据类型\">#</a> 基本数据类型</h2>\n<blockquote>\n<p>主要分为以下六种：</p>\n<ul>\n<li>Number</li>\n<li>String</li>\n<li>Boolean</li>\n<li>Undefined</li>\n<li>null</li>\n<li>symbol</li>\n</ul>\n</blockquote>\n",
+            "content_html": "<h1 id=\"javascript-中的数据类型\"><a class=\"anchor\" href=\"#javascript-中的数据类型\">#</a> JavaScript 中的数据类型</h1>\n<blockquote>\n<p>在 JavaScript 中，我们可以分成两种类型：</p>\n<p><strong>基本类型</strong> &gt; <strong>复杂类型</strong><br />\n两种类型的区别是： <code>存储位置不同</code></p>\n</blockquote>\n<h2 id=\"基本数据类型\"><a class=\"anchor\" href=\"#基本数据类型\">#</a> 基本数据类型</h2>\n<blockquote>\n<p>主要分为以下六种：</p>\n<ul>\n<li>Number</li>\n<li>String</li>\n<li>Boolean</li>\n<li>Undefined</li>\n<li>null</li>\n<li>symbol</li>\n</ul>\n</blockquote>\n",
             "tags": []
         },
         {
