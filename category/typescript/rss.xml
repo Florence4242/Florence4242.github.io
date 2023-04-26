@@ -5,13 +5,36 @@
         <link>http://example.com</link>
         <description>我在这里随便写写</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 20 Mar 2023 16:47:10 +0800</pubDate>
-        <lastBuildDate>Mon, 20 Mar 2023 16:47:10 +0800</lastBuildDate>
+        <pubDate>Tue, 25 Apr 2023 18:02:46 +0800</pubDate>
+        <lastBuildDate>Tue, 25 Apr 2023 18:02:46 +0800</lastBuildDate>
+        <category>Hexo</category>
+        <category>教程</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/03/20/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TS%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%A3%B0%E6%98%8E/</guid>
+            <guid isPermalink="true">http://example.com/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/%E5%87%BD%E6%95%B0/</guid>
+            <title>TS函数</title>
+            <link>http://example.com/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/%E5%87%BD%E6%95%B0/</link>
+            <pubDate>Tue, 25 Apr 2023 18:02:46 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数&#34;&gt;#&lt;/a&gt; 函数&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TS 中函数的定义和 JS 语法一样，但是多了&lt;strong&gt;数据校验&lt;/strong&gt;。&lt;br&gt;
+函数的参数需要根据类型来定义，每个函数都 &lt;code&gt;必须申明返回值&lt;/code&gt; 。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;函数参数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数参数&#34;&gt;#&lt;/a&gt; 函数参数&lt;/h2&gt;
+&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;函数参数&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;fn&lt;/span&gt; (&lt;span class=&#34;attr&#34;&gt;id&lt;/span&gt;:&lt;span class=&#34;built_in&#34;&gt;number&lt;/span&gt;,&lt;span class=&#34;attr&#34;&gt;name&lt;/span&gt;:&lt;span class=&#34;built_in&#34;&gt;string&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(id);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(name);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;在型参里面定义类型，传递的必须按照这个类型。&lt;mark&gt;一旦定义型参，那就必须传递参数&lt;/mark&gt;。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;函数的返回值&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数的返回值&#34;&gt;#&lt;/a&gt; 函数的返回值&lt;/h2&gt;
+&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;函数的返回值&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// void代表函数没有返回的结果&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;demo&lt;/span&gt; ():&lt;span class=&#34;built_in&#34;&gt;void&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;// 在编程规范中，return必须写&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;void 默认没有返回结果&lt;/p&gt;
+&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;函数的返回值&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// void代表函数没有返回的结果&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;demo&lt;/span&gt; ():&lt;span class=&#34;built_in&#34;&gt;number&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;// 在编程规范中，return必须写&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;123&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;res&lt;/span&gt;:&lt;span class=&#34;built_in&#34;&gt;number&lt;/span&gt; = demo&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TS%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%A3%B0%E6%98%8E/</guid>
             <title>TS的类型声明</title>
-            <link>http://example.com/2023/03/20/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TS%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%A3%B0%E6%98%8E/</link>
-            <pubDate>Mon, 20 Mar 2023 16:47:10 +0800</pubDate>
+            <link>http://example.com/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TS%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%A3%B0%E6%98%8E/</link>
+            <pubDate>Tue, 25 Apr 2023 18:02:46 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;基本类型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基本类型&#34;&gt;#&lt;/a&gt; 基本类型&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -46,27 +69,6 @@ function fn (参数：类型，参数：类型): 返回值类型 {&lt;br&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2023/03/20/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/%E5%87%BD%E6%95%B0/</guid>
-            <title>TS函数</title>
-            <link>http://example.com/2023/03/20/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/%E5%87%BD%E6%95%B0/</link>
-            <pubDate>Mon, 20 Mar 2023 16:23:31 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数&#34;&gt;#&lt;/a&gt; 函数&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;TS 中函数的定义和 JS 语法一样，但是多了&lt;strong&gt;数据校验&lt;/strong&gt;。&lt;br&gt;
-函数的参数需要根据类型来定义，每个函数都 &lt;code&gt;必须申明返回值&lt;/code&gt; 。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;函数参数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数参数&#34;&gt;#&lt;/a&gt; 函数参数&lt;/h2&gt;
-&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;函数参数&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;fn&lt;/span&gt; (&lt;span class=&#34;attr&#34;&gt;id&lt;/span&gt;:&lt;span class=&#34;built_in&#34;&gt;number&lt;/span&gt;,&lt;span class=&#34;attr&#34;&gt;name&lt;/span&gt;:&lt;span class=&#34;built_in&#34;&gt;string&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(id);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(name);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;在型参里面定义类型，传递的必须按照这个类型。&lt;mark&gt;一旦定义型参，那就必须传递参数&lt;/mark&gt;。&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;函数的返回值&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数的返回值&#34;&gt;#&lt;/a&gt; 函数的返回值&lt;/h2&gt;
-&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;函数的返回值&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// void代表函数没有返回的结果&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;demo&lt;/span&gt; ():&lt;span class=&#34;built_in&#34;&gt;void&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;// 在编程规范中，return必须写&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;void 默认没有返回结果&lt;/p&gt;
-&lt;figure class=&#34;highlight typescript&#34;&gt;&lt;figcaption&gt;&lt;span&gt;函数的返回值&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// void代表函数没有返回的结果&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;demo&lt;/span&gt; ():&lt;span class=&#34;built_in&#34;&gt;number&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;// 在编程规范中，return必须写&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;123&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;res&lt;/span&gt;:&lt;span class=&#34;built_in&#34;&gt;number&lt;/span&gt; = demo&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
  ]]></description>
         </item>
         <item>

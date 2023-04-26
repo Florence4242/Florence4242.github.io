@@ -5,8 +5,35 @@
         <link>http://example.com</link>
         <description>我在这里随便写写</description>
         <language>zh-CN</language>
-        <pubDate>Fri, 13 Jan 2023 16:11:15 +0800</pubDate>
-        <lastBuildDate>Fri, 13 Jan 2023 16:11:15 +0800</lastBuildDate>
+        <pubDate>Tue, 25 Apr 2023 18:02:46 +0800</pubDate>
+        <lastBuildDate>Tue, 25 Apr 2023 18:02:46 +0800</lastBuildDate>
+        <category>Hexo</category>
+        <category>教程</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/04/25/%E4%B8%80%E4%BA%9B%E7%90%86%E8%AE%BA/%E5%89%8D%E7%AB%AF%E7%9A%84%E7%90%86%E8%AE%BA/JavaScript/</guid>
+            <title>JavaScript</title>
+            <link>http://example.com/2023/04/25/%E4%B8%80%E4%BA%9B%E7%90%86%E8%AE%BA/%E5%89%8D%E7%AB%AF%E7%9A%84%E7%90%86%E8%AE%BA/JavaScript/</link>
+            <pubDate>Tue, 25 Apr 2023 18:02:46 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;javascript-中的数据类型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#javascript-中的数据类型&#34;&gt;#&lt;/a&gt; JavaScript 中的数据类型&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在 JavaScript 中，我们可以分成两种类型：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;基本类型&lt;/strong&gt; &amp;gt; &lt;strong&gt;复杂类型&lt;/strong&gt;&lt;br&gt;
+两种类型的区别是： &lt;code&gt;存储位置不同&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;基本数据类型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基本数据类型&#34;&gt;#&lt;/a&gt; 基本数据类型&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;主要分为以下六种：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Number&lt;/li&gt;
+&lt;li&gt;String&lt;/li&gt;
+&lt;li&gt;Boolean&lt;/li&gt;
+&lt;li&gt;Undefined&lt;/li&gt;
+&lt;li&gt;null&lt;/li&gt;
+&lt;li&gt;symbol&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/JavaScript/JavaScript/</guid>
             <title>JavaScript</title>

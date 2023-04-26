@@ -3,7 +3,9 @@
     <id>http://example.com</id>
     <title>Florence的城堡 • Posts by &#34;前端的理论&#34; category</title>
     <link href="http://example.com" />
-    <updated>2023-04-25T09:30:05.130Z</updated>
+    <updated>2023-04-25T10:02:46.874Z</updated>
+    <category term="Hexo" />
+    <category term="教程" />
     <entry>
         <id>http://example.com/2023/04/25/%E4%B8%80%E4%BA%9B%E7%90%86%E8%AE%BA/%E5%89%8D%E7%AB%AF%E7%9A%84%E7%90%86%E8%AE%BA/vue3/</id>
         <title>Vue3</title>
@@ -15,6 +17,6 @@
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;函数参数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数参数&#34;&gt;#&lt;/a&gt; 函数参数&lt;/h2&gt;
 </content>
-        <updated>2023-04-25T09:30:05.130Z</updated>
+        <updated>2023-04-25T10:02:46.874Z</updated>
     </entry>
 </feed>
