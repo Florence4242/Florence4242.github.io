@@ -5,6 +5,14 @@
     "home_page_url": "http://example.com",
     "items": [
         {
+            "id": "http://example.com/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/%E5%87%BD%E6%95%B0/",
+            "url": "http://example.com/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/%E5%87%BD%E6%95%B0/",
+            "title": "TS函数",
+            "date_published": "2023-04-25T10:02:46.875Z",
+            "content_html": "<h1 id=\"函数\"><a class=\"anchor\" href=\"#函数\">#</a> 函数</h1>\n<blockquote>\n<p>TS 中函数的定义和 JS 语法一样，但是多了<strong>数据校验</strong>。<br />\n函数的参数需要根据类型来定义，每个函数都 <code>必须申明返回值</code> 。</p>\n</blockquote>\n<h2 id=\"函数参数\"><a class=\"anchor\" href=\"#函数参数\">#</a> 函数参数</h2>\n<pre><code class=\"language-TypeScript\">    function fn (id:number,name:string) &#123;\n        console.log(id);\n        console.log(name);\n    &#125;\n</code></pre>\n<ul>\n<li><strong>在型参里面定义类型，传递的必须按照这个类型。<mark>一旦定义型参，那就必须传递参数</mark>。</strong></li>\n</ul>\n<h2 id=\"函数的返回值\"><a class=\"anchor\" href=\"#函数的返回值\">#</a> 函数的返回值</h2>\n<pre><code class=\"language-Typescript\">// void代表函数没有返回的结果\nfunction demo ():void &#123;\n    // 在编程规范中，return必须写\n    return\n&#125;\n</code></pre>\n<p>void 默认没有返回结果</p>\n<pre><code class=\"language-Typescript\">// void代表函数没有返回的结果\nfunction demo ():number &#123;\n    // 在编程规范中，return必须写\n    return 123\n&#125;\nconst res:number = demo\n</code></pre>\n",
+            "tags": []
+        },
+        {
             "id": "http://example.com/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%80%E4%BA%9Bcss%E6%A0%B7%E5%BC%8F/git%E7%9A%84%E4%B8%80%E4%BA%9B%E6%93%8D%E4%BD%9C/",
             "url": "http://example.com/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%80%E4%BA%9Bcss%E6%A0%B7%E5%BC%8F/git%E7%9A%84%E4%B8%80%E4%BA%9B%E6%93%8D%E4%BD%9C/",
             "title": "git和hexo的一些常用命令",
@@ -18,14 +26,6 @@
             "title": "一些css样式",
             "date_published": "2023-04-25T10:02:46.875Z",
             "content_html": "<ul>\n<li><strong>一些 css 样式</strong></li>\n</ul>\n<figure class=\"highlight css\"><figcaption data-lang=\"CSS\"><span>一些常用以及不常用但比较重要的css样式</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token comment\">/**</pre></td></tr><tr><td data-num=\"2\"></td><td><pre> * 一些常用以及不常用但比较重要的 css 样式</pre></td></tr><tr><td data-num=\"3\"></td><td><pre> * @author Florence</pre></td></tr><tr><td data-num=\"4\"></td><td><pre>*/</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre></pre></td></tr><tr><td data-num=\"6\"></td><td><pre><span class=\"token comment\">/* 根据文字长度，width 宽度自适应 */</span></pre></td></tr><tr><td data-num=\"7\"></td><td><pre><span class=\"token property\">width</span><span class=\"token punctuation\">:</span> fit-content<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"8\"></td><td><pre></pre></td></tr><tr><td data-num=\"9\"></td><td><pre><span class=\"token comment\">/* 溢出文字显示省略号（单行） */</span></pre></td></tr><tr><td data-num=\"10\"></td><td><pre><span class=\"token property\">overflow</span><span class=\"token punctuation\">:</span> hidden<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"11\"></td><td><pre><span class=\"token property\">text-overflow</span><span class=\"token punctuation\">:</span> ellipsis<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"12\"></td><td><pre><span class=\"token property\">white-space</span><span class=\"token punctuation\">:</span> nowrap<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"13\"></td><td><pre></pre></td></tr><tr><td data-num=\"14\"></td><td><pre><span class=\"token comment\">/* 中划线以及控制中划线的宽度和颜色 */</span></pre></td></tr><tr><td data-num=\"15\"></td><td><pre><span class=\"token property\">text-decoration</span><span class=\"token punctuation\">:</span> line-through<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"16\"></td><td><pre><span class=\"token property\">text-decoration-thickness</span><span class=\"token punctuation\">:</span> 4rpx<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"17\"></td><td><pre><span class=\"token property\">text-decoration-color</span><span class=\"token punctuation\">:</span> #ff0000aa<span class=\"token punctuation\">;</span></pre></td></tr></table></figure>",
-            "tags": []
-        },
-        {
-            "id": "http://example.com/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/%E5%87%BD%E6%95%B0/",
-            "url": "http://example.com/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/%E5%87%BD%E6%95%B0/",
-            "title": "TS函数",
-            "date_published": "2023-04-25T10:02:46.875Z",
-            "content_html": "<h1 id=\"函数\"><a class=\"anchor\" href=\"#函数\">#</a> 函数</h1>\n<blockquote>\n<p>TS 中函数的定义和 JS 语法一样，但是多了<strong>数据校验</strong>。<br />\n函数的参数需要根据类型来定义，每个函数都 <code>必须申明返回值</code> 。</p>\n</blockquote>\n<h2 id=\"函数参数\"><a class=\"anchor\" href=\"#函数参数\">#</a> 函数参数</h2>\n<pre><code class=\"language-TypeScript\">    function fn (id:number,name:string) &#123;\n        console.log(id);\n        console.log(name);\n    &#125;\n</code></pre>\n<ul>\n<li><strong>在型参里面定义类型，传递的必须按照这个类型。<mark>一旦定义型参，那就必须传递参数</mark>。</strong></li>\n</ul>\n<h2 id=\"函数的返回值\"><a class=\"anchor\" href=\"#函数的返回值\">#</a> 函数的返回值</h2>\n<pre><code class=\"language-Typescript\">// void代表函数没有返回的结果\nfunction demo ():void &#123;\n    // 在编程规范中，return必须写\n    return\n&#125;\n</code></pre>\n<p>void 默认没有返回结果</p>\n<pre><code class=\"language-Typescript\">// void代表函数没有返回的结果\nfunction demo ():number &#123;\n    // 在编程规范中，return必须写\n    return 123\n&#125;\nconst res:number = demo\n</code></pre>\n",
             "tags": []
         },
         {
