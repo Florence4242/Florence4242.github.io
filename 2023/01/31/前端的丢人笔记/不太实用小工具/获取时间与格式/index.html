@@ -1,0 +1,575 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#FFF">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+<link rel="alternate" type="application/rss+xml" title="Florence的城堡" href="http://example.com/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="Florence的城堡" href="http://example.com/atom.xml" />
+<link rel="alternate" type="application/json" title="Florence的城堡" href="http://example.com/feed.json" />
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="/css/app.css?v=0.2.5">
+
+  
+  <meta name="keywords" content="关键词1,关键词2" />
+
+
+<link rel="canonical" href="http://example.com/2023/01/31/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8D%E5%A4%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%B7%A5%E5%85%B7/%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4%E4%B8%8E%E6%A0%BC%E5%BC%8F/">
+
+
+
+  <title>
+获取时间与格式 - 不太实用小工具 - 前端的丢人笔记 |
+Florence = Florence的城堡 = Mia San Mia</title>
+<meta name="generator" content="Hexo 6.3.0"></head>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div id="loading">
+    <div class="cat">
+      <div class="body"></div>
+      <div class="head">
+        <div class="face"></div>
+      </div>
+      <div class="foot">
+        <div class="tummy-end"></div>
+        <div class="bottom"></div>
+        <div class="legs left"></div>
+        <div class="legs right"></div>
+      </div>
+      <div class="paw">
+        <div class="hands left"></div>
+        <div class="hands right"></div>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="inner">
+        <div id="brand">
+          <div class="pjax">
+          
+  <h1 itemprop="name headline">获取时间与格式
+  </h1>
+  
+<div class="meta">
+  <span class="item" title="创建时间：2023-01-31 17:53:50">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <span class="text">发表于</span>
+    <time itemprop="dateCreated datePublished" datetime="2023-01-31T17:53:50+08:00">2023-01-31</time>
+  </span>
+  <span class="item" title="本文字数">
+    <span class="icon">
+      <i class="ic i-pen"></i>
+    </span>
+    <span class="text">本文字数</span>
+    <span>1.3k</span>
+    <span class="text">字</span>
+  </span>
+  <span class="item" title="阅读时长">
+    <span class="icon">
+      <i class="ic i-clock"></i>
+    </span>
+    <span class="text">阅读时长</span>
+    <span>1 分钟</span>
+  </span>
+</div>
+
+
+          </div>
+        </div>
+        <nav id="nav">
+  <div class="inner">
+    <div class="toggle">
+      <div class="lines" aria-label="切换导航栏">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <ul class="menu">
+      <li class="item title"><a href="/" rel="start">Florence</a></li>
+    </ul>
+    <ul class="right">
+      <li class="item theme">
+        <i class="ic i-sun"></i>
+      </li>
+      <li class="item search">
+        <i class="ic i-search"></i>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+      </div>
+      <div id="imgs" class="pjax">
+        <ul>
+          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/479813b22cea266a12445d3c8d5ce5cf.jpg"></li>
+          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/1135e8eb0ca0a462aa1c2f6ecb6a5ae2.jpg"></li>
+          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/263cec5f94b8b4f7e818b8b7103a1a84.jpg"></li>
+          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/9b626c5ba21d7cb4dbcba2b507688bbb.jpg"></li>
+          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/662d37b8a580b466da309ec795b7ae55.jpg"></li>
+          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/b416eece3185a1756886f95ea0603d53.jpg"></li>
+        </ul>
+      </div>
+    </header>
+    <div id="waves">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" />
+          <use xlink:href="#gentle-wave" x="48" y="3" />
+          <use xlink:href="#gentle-wave" x="48" y="5" />
+          <use xlink:href="#gentle-wave" x="48" y="7" />
+        </g>
+      </svg>
+    </div>
+    <main>
+      <div class="inner">
+        <div id="main" class="pjax">
+          
+  <div class="article wrap">
+    
+<div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+<i class="ic i-home"></i>
+<span><a href="/">首页</a></span><i class="ic i-angle-right"></i>
+<span  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/" itemprop="item" rel="index" title="分类于 前端的丢人笔记"><span itemprop="name">前端的丢人笔记</span></a>
+<meta itemprop="position" content="1" /></span>
+<i class="ic i-angle-right"></i>
+<span  class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8D%E5%A4%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%B7%A5%E5%85%B7/" itemprop="item" rel="index" title="分类于 不太实用小工具"><span itemprop="name">不太实用小工具</span></a>
+<meta itemprop="position" content="2" /></span>
+</div>
+
+    <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN">
+  <link itemprop="mainEntityOfPage" href="http://example.com/2023/01/31/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8D%E5%A4%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%B7%A5%E5%85%B7/%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4%E4%B8%8E%E6%A0%BC%E5%BC%8F/">
+
+  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="image" content="/images/avatar.jpg">
+    <meta itemprop="name" content="Florence">
+    <meta itemprop="description" content="Mia San Mia, 我在这里随便写写">
+  </span>
+
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Florence的城堡">
+  </span>
+
+  <div class="body md" itemprop="articleBody">
+    
+
+    <h2 id="获取当前时间与时间显示格式"><a class="anchor" href="#获取当前时间与时间显示格式">#</a> <strong>获取当前时间与时间显示格式</strong></h2>
+<figure class="highlight typescript"><figcaption data-lang="typescript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment">/**</pre></td></tr><tr><td data-num="2"></td><td><pre> * 时间格式枚举</pre></td></tr><tr><td data-num="3"></td><td><pre> * dateAndTime 显示日期和时间；</pre></td></tr><tr><td data-num="4"></td><td><pre> * dateOnly 只显示日期；</pre></td></tr><tr><td data-num="5"></td><td><pre> * timeOnly 只显示时间</pre></td></tr><tr><td data-num="6"></td><td><pre> * @author Florence</pre></td></tr><tr><td data-num="7"></td><td><pre>*/</span></pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token keyword">export</span> <span class="token keyword">enum</span> DateFormat <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    dateAndTime<span class="token punctuation">,</span></pre></td></tr><tr><td data-num="10"></td><td><pre>    dateOnly<span class="token punctuation">,</span></pre></td></tr><tr><td data-num="11"></td><td><pre>    timeOnly</pre></td></tr><tr><td data-num="12"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="13"></td><td><pre></pre></td></tr><tr><td data-num="14"></td><td><pre><span class="token comment">/**</pre></td></tr><tr><td data-num="15"></td><td><pre> * 获取当前日期字符串</pre></td></tr><tr><td data-num="16"></td><td><pre> * @param format 日期格式</pre></td></tr><tr><td data-num="17"></td><td><pre> * @param showMilliseconds 是否显示毫秒</pre></td></tr><tr><td data-num="18"></td><td><pre> * @returns 日期时间字符串</pre></td></tr><tr><td data-num="19"></td><td><pre> * @author Florence</pre></td></tr><tr><td data-num="20"></td><td><pre> */</span></pre></td></tr><tr><td data-num="21"></td><td><pre></pre></td></tr><tr><td data-num="22"></td><td><pre><span class="token keyword">export</span> <span class="token keyword">function</span> <span class="token function">getTimeStr</span><span class="token punctuation">(</span>format<span class="token operator">:</span> DateFormat <span class="token operator">=</span> DateFormat<span class="token punctuation">.</span>dateAndTime<span class="token punctuation">,</span> showMilliseconds<span class="token operator">:</span> <span class="token builtin">boolean</span> <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">string</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="23"></td><td><pre>    <span class="token keyword">let</span> date <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="24"></td><td><pre>    <span class="token keyword">let</span> dateStr <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>date<span class="token punctuation">.</span><span class="token function">getFullYear</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">-</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>date<span class="token punctuation">.</span><span class="token function">getMonth</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">-</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>date<span class="token punctuation">.</span><span class="token function">getDate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="25"></td><td><pre>    <span class="token keyword">let</span> timeStr <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span><span class="token function">formatTimeNum</span><span class="token punctuation">(</span>date<span class="token punctuation">.</span><span class="token function">getHours</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">:</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span><span class="token function">formatTimeNum</span><span class="token punctuation">(</span>date<span class="token punctuation">.</span><span class="token function">getMinutes</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">:</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span><span class="token function">formatTimeNum</span><span class="token punctuation">(</span>date<span class="token punctuation">.</span><span class="token function">getSeconds</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="26"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>showMilliseconds<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="27"></td><td><pre>        timeStr <span class="token operator">+=</span> <span class="token string">"."</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="28"></td><td><pre>        <span class="token keyword">let</span> millis <span class="token operator">=</span> date<span class="token punctuation">.</span><span class="token function">getMilliseconds</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="29"></td><td><pre>        <span class="token keyword">if</span> <span class="token punctuation">(</span>millis <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="30"></td><td><pre>            timeStr <span class="token operator">+=</span> <span class="token string">"00"</span> <span class="token operator">+</span> millis<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="31"></td><td><pre>        <span class="token punctuation">&#125;</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>millis <span class="token operator">&lt;</span> <span class="token number">100</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="32"></td><td><pre>            timeStr <span class="token operator">+=</span> <span class="token string">"0"</span> <span class="token operator">+</span> millis<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="33"></td><td><pre>        <span class="token punctuation">&#125;</span> <span class="token keyword">else</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="34"></td><td><pre>            timeStr <span class="token operator">+=</span> millis</pre></td></tr><tr><td data-num="35"></td><td><pre>        <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="36"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="37"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>format <span class="token operator">==</span> DateFormat<span class="token punctuation">.</span>dateAndTime<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="38"></td><td><pre>        <span class="token keyword">return</span> dateStr <span class="token operator">+</span> <span class="token string">" "</span> <span class="token operator">+</span> timeStr<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="39"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="40"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>format <span class="token operator">==</span> DateFormat<span class="token punctuation">.</span>dateOnly<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="41"></td><td><pre>        <span class="token keyword">return</span> dateStr<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="42"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="43"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>format <span class="token operator">==</span> DateFormat<span class="token punctuation">.</span>timeOnly<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="44"></td><td><pre>        <span class="token keyword">return</span> timeStr<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="45"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="46"></td><td><pre>    <span class="token keyword">return</span>  <span class="token string">""</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="47"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="48"></td><td><pre></pre></td></tr><tr><td data-num="49"></td><td><pre><span class="token keyword">function</span> <span class="token function">formatTimeNum</span> <span class="token punctuation">(</span>timeNum<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">string</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="50"></td><td><pre>    <span class="token keyword">return</span> timeNum <span class="token operator">&lt;</span> <span class="token number">10</span> <span class="token operator">?</span> <span class="token string">"0"</span> <span class="token operator">+</span> timeNum <span class="token operator">:</span> timeNum<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="51"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><h2 id="月份设置为中文"><a class="anchor" href="#月份设置为中文">#</a> 月份设置为中文</h2>
+<figure class="highlight typescript"><figcaption data-lang="typescript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment">// 获取当前时间</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">const</span> date <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token comment">// 获取当前月份</span></pre></td></tr><tr><td data-num="4"></td><td><pre>date<span class="token punctuation">.</span><span class="token function">getMoutn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>	<span class="token comment">// 获取值为 0-11</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token comment">// 参数 1，将时间转换成一个本地格式，参数 2 指定返回的日期里面要显示那些数据</span></pre></td></tr><tr><td data-num="6"></td><td><pre>date<span class="token punctuation">.</span><span class="token function">toLocaleString</span><span class="token punctuation">(</span><span class="token string">'zh-CN'</span><span class="token punctuation">,</span><span class="token punctuation">&#123;</span>month<span class="token operator">:</span><span class="token string">'long'</span><span class="token punctuation">&#125;</span><span class="token punctuation">)</span>		<span class="token comment">// 获取值为 “一月、二月……”</span></pre></td></tr></table></figure>
+  </div>
+
+   <footer>
+
+    <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">更新于</span>
+    <time title="修改时间：2023-06-12 15:01:56" itemprop="dateModified" datetime="2023-06-12T15:01:56+08:00">2023-06-12</time>
+  </span>
+</div>
+
+      
+<div class="reward">
+  <button><i class="ic i-heartbeat"></i> 赞赏</button>
+  <p>请我喝[茶]~(￣▽￣)~*</p>
+  <div id="qr">
+      
+      <div>
+        <img data-src="/images/wechatpay.png" alt="Florence 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div>
+        <img data-src="/images/alipay.png" alt="Florence 支付宝">
+        <p>支付宝</p>
+      </div>
+  </div>
+</div>
+
+      
+
+<div id="copyright">
+<ul>
+  <li class="author">
+    <strong>本文作者： </strong>Florence <i class="ic i-at"><em>@</em></i>Florence的城堡
+  </li>
+  <li class="link">
+    <strong>本文链接：</strong>
+    <a href="http://example.com/2023/01/31/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8D%E5%A4%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%B7%A5%E5%85%B7/%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4%E4%B8%8E%E6%A0%BC%E5%BC%8F/" title="获取时间与格式">http://example.com/2023/01/31/前端的丢人笔记/不太实用小工具/获取时间与格式/</a>
+  </li>
+  <li class="license">
+    <strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+  </footer>
+
+</article>
+
+  </div>
+  
+
+<div class="post-nav">
+    <div class="item left">
+      
+
+  <a href="/2023/01/30/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TypeScript%E5%85%A5%E9%97%A8_1/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;img.timelessq.com&#x2F;images&#x2F;2022&#x2F;07&#x2F;26&#x2F;3b386ae3affb92bf1cd0542648e24fc5.jpg" title="TS的的准备工作">
+  <span class="type">上一篇</span>
+  <span class="category"><i class="ic i-flag"></i> Typescript</span>
+  <h3>TS的的准备工作</h3>
+  </a>
+
+    </div>
+    <div class="item right">
+      
+
+  <a href="/2023/02/08/Cocos%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9D%9F/%E4%BA%8B%E4%BB%B6%E7%9B%B8%E5%85%B3/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;img.timelessq.com&#x2F;images&#x2F;2022&#x2F;07&#x2F;26&#x2F;f584675dfc4ef47fcf19442f0e2ea18b.jpg" title="Cocos入门基础之：交互事件">
+  <span class="type">下一篇</span>
+  <span class="category"><i class="ic i-flag"></i> Cocos从入门到入坟</span>
+  <h3>Cocos入门基础之：交互事件</h3>
+  </a>
+
+    </div>
+</div>
+
+  
+  <div class="wrap" id="comments"></div>
+
+
+        </div>
+        <div id="sidebar">
+          
+
+<div class="inner">
+
+  <div class="panels">
+    <div class="inner">
+      <div class="contents panel pjax" data-title="文章目录">
+          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E6%97%B6%E9%97%B4%E4%B8%8E%E6%97%B6%E9%97%B4%E6%98%BE%E7%A4%BA%E6%A0%BC%E5%BC%8F"><span class="toc-number">1.</span> <span class="toc-text"> 获取当前时间与时间显示格式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%88%E4%BB%BD%E8%AE%BE%E7%BD%AE%E4%B8%BA%E4%B8%AD%E6%96%87"><span class="toc-number">2.</span> <span class="toc-text"> 月份设置为中文</span></a></li></ol>
+      </div>
+      <div class="related panel pjax" data-title="系列文章">
+        <ul>
+          <li class="active"><a href="/2023/01/31/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8D%E5%A4%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%B7%A5%E5%85%B7/%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4%E4%B8%8E%E6%A0%BC%E5%BC%8F/" rel="bookmark" title="获取时间与格式">获取时间与格式</a></li><li><a href="/2023/02/15/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8D%E5%A4%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%B7%A5%E5%85%B7/%E8%AE%A1%E7%AE%97%E7%9B%B8%E5%B7%AE%E5%A4%A9%E6%95%B0/" rel="bookmark" title="计算相差天数">计算相差天数</a></li>
+        </ul>
+      </div>
+      <div class="overview panel" data-title="站点概览">
+        <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="image" itemprop="image" alt="Florence"
+      data-src="/images/avatar.jpg">
+  <p class="name" itemprop="name">Florence</p>
+  <div class="description" itemprop="description">我在这里随便写写</div>
+</div>
+
+<nav class="state">
+    <div class="item posts">
+      <a href="/archives/">
+        <span class="count">33</span>
+        <span class="name">文章</span>
+      </a>
+    </div>
+    <div class="item categories">
+      <a href="/categories/">
+        <span class="count">25</span>
+        <span class="name">分类</span>
+      </a>
+    </div>
+    <div class="item tags">
+      <a href="/tags/">
+        <span class="count">2</span>
+        <span class="name">标签</span>
+      </a>
+    </div>
+</nav>
+
+<div class="social">
+      <span class="exturl item github" data-url="aHR0cHM6Ly9naXRodWIuY29tL0Zsb3JlbmNlNDI0Mg==" title="https:&#x2F;&#x2F;github.com&#x2F;Florence4242"><i class="ic i-github"></i></span>
+</div>
+
+<ul class="menu">
+  
+    
+  <li class="item">
+    <a href="/" rel="section"><i class="ic i-home"></i>首页</a>
+  </li>
+
+    
+  <li class="item">
+    <a href="/about/" rel="section"><i class="ic i-user"></i>关于</a>
+  </li>
+
+        
+  <li class="item dropdown">
+      <a href="javascript:void(0);"><i class="ic i-feather"></i>文章</a>
+    <ul class="submenu">
+
+        
+  <li class="item">
+    <a href="/archives/" rel="section"><i class="ic i-list-alt"></i>归档</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/categories/" rel="section"><i class="ic i-th"></i>分类</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/tags/" rel="section"><i class="ic i-tags"></i>标签</a>
+  </li>
+
+  </ul>
+    
+  <li class="item">
+    <a href="/friends/" rel="section"><i class="ic i-heart"></i>friends</a>
+  </li>
+
+    
+  <li class="item">
+    <a href="/links/" rel="section"><i class="ic i-magic"></i>links</a>
+  </li>
+
+
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+  <ul id="quick">
+    <li class="prev pjax">
+        <a href="/2023/01/30/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TypeScript%E5%85%A5%E9%97%A8_1/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
+    </li>
+    <li class="up"><i class="ic i-arrow-up"></i></li>
+    <li class="down"><i class="ic i-arrow-down"></i></li>
+    <li class="next pjax">
+        <a href="/2023/02/08/Cocos%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9D%9F/%E4%BA%8B%E4%BB%B6%E7%9B%B8%E5%85%B3/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
+    </li>
+    <li class="percent"></li>
+  </ul>
+</div>
+
+
+        </div>
+        <div class="dimmer"></div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <div class="widgets">
+          
+<div class="rpost pjax">
+  <h2>随机文章</h2>
+  <ul>
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/" title="分类于 前端的丢人笔记">前端的丢人笔记</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/" title="分类于 Typescript">Typescript</a>
+</div>
+
+    <span><a href="/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/TS%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%A3%B0%E6%98%8E/" title="TS的类型声明">TS的类型声明</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/" title="分类于 前端的丢人笔记">前端的丢人笔记</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/axios/" title="分类于 axios">axios</a>
+</div>
+
+    <span><a href="/2023/05/04/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/axios/axios%E5%B7%B4%E6%8B%89%E5%B7%B4%E6%8B%89/" title="axios巴拉巴拉">axios巴拉巴拉</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/" title="分类于 前端的丢人笔记">前端的丢人笔记</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/JavaScript/" title="分类于 JavaScript">JavaScript</a>
+</div>
+
+    <span><a href="/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/JavaScript/JavaScript/" title="JavaScript">JavaScript</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E4%B8%80%E4%BA%9B%E7%90%86%E8%AE%BA/" title="分类于 一些理论">一些理论</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E4%B8%80%E4%BA%9B%E7%90%86%E8%AE%BA/%E5%89%8D%E7%AB%AF%E7%9A%84%E7%90%86%E8%AE%BA/" title="分类于 前端的理论">前端的理论</a>
+</div>
+
+    <span><a href="/2023/04/25/%E4%B8%80%E4%BA%9B%E7%90%86%E8%AE%BA/%E5%89%8D%E7%AB%AF%E7%9A%84%E7%90%86%E8%AE%BA/vue3/" title="Vue3">Vue3</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/" title="分类于 前端的丢人笔记">前端的丢人笔记</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/React/" title="分类于 React">React</a>
+</div>
+
+    <span><a href="/2023/05/21/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/React/DOM%E5%AF%B9%E8%B1%A1%E5%92%8CuseRef()/" title="DOM对象和useRef()">DOM对象和useRef()</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E4%BA%BA%E9%97%B4%E9%AC%BC%E6%89%AF/" title="分类于 人间鬼扯">人间鬼扯</a>
+</div>
+
+    <span><a href="/2023/01/13/%E4%BA%BA%E9%97%B4%E9%AC%BC%E6%89%AF/%E7%AC%AC%E4%B8%80%E7%AF%87/" title="一扯">一扯</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/" title="分类于 前端的丢人笔记">前端的丢人笔记</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/" title="分类于 Typescript">Typescript</a>
+</div>
+
+    <span><a href="/2023/04/25/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/%E5%87%BD%E6%95%B0/" title="TS函数">TS函数</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/" title="分类于 后端的现眼学习">后端的现眼学习</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Golang/" title="分类于 Golang">Golang</a>
+</div>
+
+    <span><a href="/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Golang/Golang/" title="明天再学！">明天再学！</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%92%B1%E8%BF%99%E4%B8%AA%E4%B8%BB%E9%A2%98%E9%87%8C%E9%9D%A2%E7%9A%84%E4%B8%9C%E8%A5%BF/" title="分类于 咱这个主题里面的东西">咱这个主题里面的东西</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E5%92%B1%E8%BF%99%E4%B8%AA%E4%B8%BB%E9%A2%98%E9%87%8C%E9%9D%A2%E7%9A%84%E4%B8%9C%E8%A5%BF/Theme-Shoka-Documentation/" title="分类于 Theme Shoka Documentation">Theme Shoka Documentation</a>
+</div>
+
+    <span><a href="/2020/08/13/%E5%92%B1%E8%BF%99%E4%B8%AA%E4%B8%BB%E9%A2%98%E9%87%8C%E9%9D%A2%E7%9A%84%E4%B8%9C%E8%A5%BF/theme-shoka-doc/" title="Hexo主题Shoka &amp; multi-markdown-it渲染器使用说明">Hexo主题Shoka & multi-markdown-it渲染器使用说明</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/" title="分类于 前端的丢人笔记">前端的丢人笔记</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Vue/" title="分类于 Vue">Vue</a>
+</div>
+
+    <span><a href="/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Vue/Vue/" title="Vue3">Vue3</a></span>
+  </li>
+
+  </ul>
+</div>
+<div>
+  <h2>最新评论</h2>
+  <ul class="leancloud-recent-comment"></ul>
+</div>
+
+        </div>
+        <div class="status">
+  <div class="copyright">
+    
+    &copy; 2010 – 
+    <span itemprop="copyrightYear">2023</span>
+    <span class="with-love">
+      <i class="ic i-sakura rotate"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Florence @ Florence</span>
+  </div>
+  <div class="count">
+    <span class="post-meta-item-icon">
+      <i class="ic i-chart-area"></i>
+    </span>
+    <span title="站点总字数">30k 字</span>
+
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="ic i-coffee"></i>
+    </span>
+    <span title="站点阅读时长">27 分钟</span>
+  </div>
+  <div class="powered-by">
+    基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
+  </div>
+</div>
+
+      </div>
+    </footer>
+  </div>
+<script data-config type="text/javascript">
+  var LOCAL = {
+    path: '2023/01/31/前端的丢人笔记/不太实用小工具/获取时间与格式/',
+    favicon: {
+      show: "（●´3｀●）城堡开门！",
+      hide: "(´Д｀)城堡隐形！"
+    },
+    search : {
+      placeholder: "文章搜索",
+      empty: "关于 「 ${query} 」，什么也没搜到",
+      stats: "${time} ms 内找到 ${hits} 条结果"
+    },
+    valine: true,fancybox: true,
+    copyright: '复制成功，转载请遵守 <i class="ic i-creative-commons"></i>BY-NC-SA 协议。',
+    ignores : [
+      function(uri) {
+        return uri.includes('#');
+      },
+      function(uri) {
+        return new RegExp(LOCAL.path+"$").test(uri);
+      }
+    ]
+  };
+</script>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+
+<script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
+
+<script src="/js/app.js?v=0.2.5"></script>
+
+
+
+
+</body>
+</html>

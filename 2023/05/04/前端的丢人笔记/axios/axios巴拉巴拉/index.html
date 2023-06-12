@@ -76,7 +76,7 @@ Florence = Florence的城堡 = Mia San Mia</title>
       <i class="ic i-pen"></i>
     </span>
     <span class="text">本文字数</span>
-    <span>1.7k</span>
+    <span>1.8k</span>
     <span class="text">字</span>
   </span>
   <span class="item" title="阅读时长">
@@ -117,12 +117,12 @@ Florence = Florence的城堡 = Mia San Mia</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
+          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/d0ac01ff6ebfeb4159b53fff4ce860d0.jpg"></li>
+          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/226cdddcc87f721f3412378f31d5c9d1.jpg"></li>
+          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/7dad57904e56f14df7975109aaf03bc2.jpg"></li>
           <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/d10b26588ca1fe939f0146bb24578eaa.jpg"></li>
-          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/e9387f53393624bd88390036d7943fad.jpg"></li>
-          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/dd21608b40c2387068c472909a82b3e0.jpg"></li>
-          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/1fca97d4bee5434e2dec3c0a4a75bc64.jpg"></li>
-          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/2e0802e6e5cfd05c700bc3f911f9351c.jpg"></li>
-          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/6e7c7d241bbd3f8bacac3372cbe3c6ba.jpg"></li>
+          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/c22bb7736559a7554506b05203018145.jpg"></li>
+          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/13818173de445fa048acb5e72b8e650e.jpg"></li>
         </ul>
       </div>
     </header>
@@ -182,7 +182,7 @@ Florence = Florence的城堡 = Mia San Mia</title>
 </ul>
 </li>
 </ul>
-<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment">// /src/axios.js</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token comment">// 配置全局的基础配置</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">import</span> axios <span class="token keyword">from</span> <span class="token string">"axios"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token comment">// baseURL,timeout,header,responseType,withCredentials</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token comment">// 配置中心</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token keyword">import</span> webConfig <span class="token keyword">from</span> <span class="token string">"/src/global.config.js"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token comment">// 引入一种加密方式，比如此处使用的是 base64，除此之外还有 md5 等等等啥的</span></pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token keyword">import</span> <span class="token punctuation">&#123;</span>Base64<span class="token punctuation">&#125;</span> <span class="token keyword">from</span> <span class="token string">"js-base64"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="9"></td><td><pre></pre></td></tr><tr><td data-num="10"></td><td><pre><span class="token comment">// 后面的请求用 request 来发</span></pre></td></tr><tr><td data-num="11"></td><td><pre><span class="token keyword">let</span> request <span class="token operator">=</span> axios<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="12"></td><td><pre>    <span class="token comment">// 1. 基础配置</span></pre></td></tr><tr><td data-num="13"></td><td><pre>    <span class="token literal-property property">baseURL</span><span class="token operator">:</span><span class="token string">"http://localhost:8000/"</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="14"></td><td><pre>    <span class="token literal-property property">timeout</span><span class="token operator">:</span><span class="token number">30</span> <span class="token operator">*</span> <span class="token number">1000</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="15"></td><td><pre>    <span class="token literal-property property">responseType</span><span class="token operator">:</span> <span class="token string">"json"</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="16"></td><td><pre>    <span class="token literal-property property">headers</span><span class="token operator">:</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="17"></td><td><pre>        <span class="token string-property property">"请求头的名字"</span><span class="token operator">:</span><span class="token string">"请求头的内容"</span></pre></td></tr><tr><td data-num="18"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="19"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="20"></td><td><pre></pre></td></tr><tr><td data-num="21"></td><td><pre><span class="token comment">// 拦截器</span></pre></td></tr><tr><td data-num="22"></td><td><pre>request<span class="token punctuation">.</span>interceptors<span class="token punctuation">.</span>request<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">config</span><span class="token punctuation">)</span><span class="token operator">=></span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="23"></td><td><pre>    <span class="token comment">// 进行 token 密钥的设置</span></pre></td></tr><tr><td data-num="24"></td><td><pre>    <span class="token keyword">let</span> whiteList <span class="token operator">=</span> webConfig<span class="token punctuation">.</span>whiteListApi<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="25"></td><td><pre>    <span class="token keyword">let</span> url <span class="token operator">=</span> config<span class="token punctuation">.</span>url<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="26"></td><td><pre>    <span class="token keyword">let</span> token <span class="token operator">=</span> localStorage<span class="token punctuation">.</span><span class="token function">getItem</span><span class="token punctuation">(</span><span class="token string">"token"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="27"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>whiteList<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>url<span class="token punctuation">)</span> <span class="token operator">===</span> <span class="token operator">-</span><span class="token number">1</span> <span class="token operator">&amp;&amp;</span> token<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="28"></td><td><pre>        config<span class="token punctuation">.</span>headers<span class="token punctuation">.</span>token <span class="token operator">=</span> token<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="29"></td><td><pre>    <span class="token punctuation">&#125;</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="30"></td><td><pre>    <span class="token comment">// 密钥 (通过 secretId + 特殊算法)</span></pre></td></tr><tr><td data-num="31"></td><td><pre>    <span class="token keyword">let</span> _secret <span class="token operator">=</span> Base64<span class="token punctuation">.</span><span class="token function">encode</span><span class="token punctuation">(</span>webConfig<span class="token punctuation">.</span>secretId <span class="token operator">+</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="32"></td><td><pre>    config<span class="token punctuation">.</span>headers<span class="token punctuation">.</span>secret <span class="token operator">=</span> _secret<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="33"></td><td><pre>    <span class="token keyword">return</span> config<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="34"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">,</span><span class="token parameter">error</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="35"></td><td><pre>    <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">reject</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="36"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span>；</pre></td></tr><tr><td data-num="37"></td><td><pre></pre></td></tr><tr><td data-num="38"></td><td><pre><span class="token comment">// 响应拦截器 (通常判断后端返回的状态码)</span></pre></td></tr><tr><td data-num="39"></td><td><pre>request<span class="token punctuation">.</span>interceptors<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span><span class="token operator">=></span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="40"></td><td><pre>    <span class="token comment">// 响应的统一处理</span></pre></td></tr><tr><td data-num="41"></td><td><pre>    <span class="token comment">// 此处为响应成功的拦截</span></pre></td></tr><tr><td data-num="42"></td><td><pre>    <span class="token keyword">const</span> code <span class="token operator">=</span> res<span class="token punctuation">.</span>data<span class="token punctuation">.</span>code <span class="token operator">||</span> <span class="token number">200</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="43"></td><td><pre>    <span class="token keyword">const</span> message <span class="token operator">=</span> res<span class="token punctuation">.</span>data<span class="token punctuation">.</span>msg <span class="token operator">||</span> <span class="token string">"未知错误"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="44"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>code <span class="token operator">===</span> <span class="token number">401</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="45"></td><td><pre>        <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"没有权限"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="46"></td><td><pre>        router<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">"/login"</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="47"></td><td><pre>        <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">reject</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="48"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="49"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>code <span class="token operator">!==</span> <span class="token number">200</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="50"></td><td><pre>        <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"错误码"</span> <span class="token operator">+</span> code <span class="token operator">+</span> <span class="token string">"  "</span> <span class="token operator">+</span> message<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="51"></td><td><pre>        <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">reject</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="52"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="53"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">,</span><span class="token parameter">error</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="54"></td><td><pre>    <span class="token comment">// 此处为响应失败的拦截</span></pre></td></tr><tr><td data-num="55"></td><td><pre>    <span class="token comment">// 一般使用组件库中的消息提示</span></pre></td></tr><tr><td data-num="56"></td><td><pre>    <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"error"</span><span class="token punctuation">,</span>error<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="57"></td><td><pre>    <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">reject</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="58"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span>；</pre></td></tr><tr><td data-num="59"></td><td><pre></pre></td></tr><tr><td data-num="60"></td><td><pre><span class="token comment">// 响应拦截和请求拦截最后都要有一个 return</span></pre></td></tr><tr><td data-num="61"></td><td><pre><span class="token comment">// 这里的 return 属于是一个兜底处理了，防止忘记写 cath，起码还有一个错误提示，让 cath 可以处理，到时候具体请求的时候，可以通过 cath 可以定义错误。</span></pre></td></tr><tr><td data-num="62"></td><td><pre></pre></td></tr><tr><td data-num="63"></td><td><pre></pre></td></tr><tr><td data-num="64"></td><td><pre><span class="token comment">// 最后把都配置好的 request 暴露出去使用。</span></pre></td></tr><tr><td data-num="65"></td><td><pre><span class="token keyword">export</span> <span class="token keyword">default</span> request<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="66"></td><td><pre><span class="token comment">// 去吧，去大干一场！失败了大不了一起投简历！</span></pre></td></tr></table></figure><blockquote>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment">// /src/axios.js</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token comment">// 配置全局的基础配置</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">import</span> axios <span class="token keyword">from</span> <span class="token string">"axios"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token comment">// baseURL,timeout,header,responseType,withCredentials</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token comment">// 配置中心</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token keyword">import</span> webConfig <span class="token keyword">from</span> <span class="token string">"/src/global.config.js"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token comment">// 引入一种加密方式，比如此处使用的是 base64，除此之外还有 md5 等等等啥的</span></pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token keyword">import</span> <span class="token punctuation">&#123;</span>Base64<span class="token punctuation">&#125;</span> <span class="token keyword">from</span> <span class="token string">"js-base64"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="9"></td><td><pre></pre></td></tr><tr><td data-num="10"></td><td><pre><span class="token comment">// 后面的请求用 request 来发</span></pre></td></tr><tr><td data-num="11"></td><td><pre><span class="token keyword">let</span> request <span class="token operator">=</span> axios<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="12"></td><td><pre>    <span class="token comment">// 1. 基础配置</span></pre></td></tr><tr><td data-num="13"></td><td><pre>    <span class="token literal-property property">baseURL</span><span class="token operator">:</span><span class="token string">"http://localhost:8000/"</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="14"></td><td><pre>    <span class="token literal-property property">timeout</span><span class="token operator">:</span><span class="token number">30</span> <span class="token operator">*</span> <span class="token number">1000</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="15"></td><td><pre>    <span class="token literal-property property">responseType</span><span class="token operator">:</span> <span class="token string">"json"</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="16"></td><td><pre>    <span class="token literal-property property">headers</span><span class="token operator">:</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="17"></td><td><pre>        <span class="token string-property property">"请求头的名字"</span><span class="token operator">:</span><span class="token string">"请求头的内容"</span></pre></td></tr><tr><td data-num="18"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="19"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="20"></td><td><pre></pre></td></tr><tr><td data-num="21"></td><td><pre><span class="token comment">// 拦截器</span></pre></td></tr><tr><td data-num="22"></td><td><pre>request<span class="token punctuation">.</span>interceptors<span class="token punctuation">.</span>request<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">config</span><span class="token punctuation">)</span><span class="token operator">=></span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="23"></td><td><pre>    <span class="token comment">// 进行 token 密钥的设置</span></pre></td></tr><tr><td data-num="24"></td><td><pre>    <span class="token keyword">let</span> whiteList <span class="token operator">=</span> webConfig<span class="token punctuation">.</span>whiteListApi<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="25"></td><td><pre>    <span class="token keyword">let</span> url <span class="token operator">=</span> config<span class="token punctuation">.</span>url<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="26"></td><td><pre>    <span class="token keyword">let</span> token <span class="token operator">=</span> localStorage<span class="token punctuation">.</span><span class="token function">getItem</span><span class="token punctuation">(</span><span class="token string">"token"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="27"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>whiteList<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>url<span class="token punctuation">)</span> <span class="token operator">===</span> <span class="token operator">-</span><span class="token number">1</span> <span class="token operator">&amp;&amp;</span> token<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="28"></td><td><pre>        config<span class="token punctuation">.</span>headers<span class="token punctuation">.</span>token <span class="token operator">=</span> token<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="29"></td><td><pre>    <span class="token punctuation">&#125;</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="30"></td><td><pre>    <span class="token comment">// 密钥 (通过 secretId + 特殊算法)</span></pre></td></tr><tr><td data-num="31"></td><td><pre>    <span class="token keyword">let</span> _secret <span class="token operator">=</span> Base64<span class="token punctuation">.</span><span class="token function">encode</span><span class="token punctuation">(</span>webConfig<span class="token punctuation">.</span>secretId <span class="token operator">+</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="32"></td><td><pre>    config<span class="token punctuation">.</span>headers<span class="token punctuation">.</span>secret <span class="token operator">=</span> _secret<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="33"></td><td><pre>    <span class="token keyword">return</span> config<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="34"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">,</span><span class="token parameter">error</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="35"></td><td><pre>    <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">reject</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="36"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span>；</pre></td></tr><tr><td data-num="37"></td><td><pre></pre></td></tr><tr><td data-num="38"></td><td><pre><span class="token comment">// 响应拦截器 (通常判断后端返回的状态码)</span></pre></td></tr><tr><td data-num="39"></td><td><pre>request<span class="token punctuation">.</span>interceptors<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span><span class="token operator">=></span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="40"></td><td><pre>    <span class="token comment">// 响应的统一处理</span></pre></td></tr><tr><td data-num="41"></td><td><pre>    <span class="token comment">// 此处为响应成功的拦截</span></pre></td></tr><tr><td data-num="42"></td><td><pre>    <span class="token keyword">const</span> code <span class="token operator">=</span> res<span class="token punctuation">.</span>data<span class="token punctuation">.</span>code <span class="token operator">||</span> <span class="token number">200</span><span class="token punctuation">;</span>  <span class="token comment">// 如果 code 没有的话就默认它为 200;</span></pre></td></tr><tr><td data-num="43"></td><td><pre>    <span class="token keyword">const</span> message <span class="token operator">=</span> res<span class="token punctuation">.</span>data<span class="token punctuation">.</span>msg <span class="token operator">||</span> <span class="token string">"未知错误"</span><span class="token punctuation">;</span> <span class="token comment">// 同</span></pre></td></tr><tr><td data-num="44"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>code <span class="token operator">===</span> <span class="token number">401</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="45"></td><td><pre>        <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"没有权限"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="46"></td><td><pre>        router<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">"/login"</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="47"></td><td><pre>        <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">reject</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="48"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="49"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>code <span class="token operator">!==</span> <span class="token number">200</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="50"></td><td><pre>        <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"错误码"</span> <span class="token operator">+</span> code <span class="token operator">+</span> <span class="token string">"  "</span> <span class="token operator">+</span> message<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="51"></td><td><pre>        <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">reject</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="52"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="53"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">,</span><span class="token parameter">error</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="54"></td><td><pre>    <span class="token comment">// 此处为响应失败的拦截</span></pre></td></tr><tr><td data-num="55"></td><td><pre>    <span class="token comment">// 一般使用组件库中的消息提示</span></pre></td></tr><tr><td data-num="56"></td><td><pre>    <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"error"</span><span class="token punctuation">,</span>error<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="57"></td><td><pre>    <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">reject</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="58"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span>；</pre></td></tr><tr><td data-num="59"></td><td><pre></pre></td></tr><tr><td data-num="60"></td><td><pre><span class="token comment">// 响应拦截和请求拦截最后都要有一个 return</span></pre></td></tr><tr><td data-num="61"></td><td><pre><span class="token comment">// 这里的 return 属于是一个兜底处理了，防止忘记写 cath，起码还有一个错误提示，让 cath 可以处理，到时候具体请求的时候，可以通过 cath 可以定义错误。</span></pre></td></tr><tr><td data-num="62"></td><td><pre></pre></td></tr><tr><td data-num="63"></td><td><pre></pre></td></tr><tr><td data-num="64"></td><td><pre><span class="token comment">// 最后把都配置好的 request 暴露出去使用。</span></pre></td></tr><tr><td data-num="65"></td><td><pre><span class="token keyword">export</span> <span class="token keyword">default</span> request<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="66"></td><td><pre><span class="token comment">// 去吧，去大干一场！失败了大不了一起投简历！</span></pre></td></tr></table></figure><blockquote>
 <p>记得整一个 “配置中心”<br />
  配置中心里面可以搞一搞白名单啊，token 加密啥的</p>
 </blockquote>
@@ -196,6 +196,13 @@ Florence = Florence的城堡 = Mia San Mia</title>
    <footer>
 
     <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">更新于</span>
+    <time title="修改时间：2023-05-09 03:00:14" itemprop="dateModified" datetime="2023-05-09T03:00:14+08:00">2023-05-09</time>
+  </span>
 </div>
 
       
@@ -244,7 +251,7 @@ Florence = Florence的城堡 = Mia San Mia</title>
     <div class="item left">
       
 
-  <a href="/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/CSharp-1/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;img.timelessq.com&#x2F;images&#x2F;2022&#x2F;07&#x2F;26&#x2F;74f81cade89fd386a6972382481bd355.jpg" title="CSharp入门！">
+  <a href="/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/CSharp-1/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;img.timelessq.com&#x2F;images&#x2F;2022&#x2F;07&#x2F;26&#x2F;d6ac20b715622e2d46f27dc717ab9484.jpg" title="CSharp入门！">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> CSharp</span>
   <h3>CSharp入门！</h3>
@@ -252,6 +259,14 @@ Florence = Florence的城堡 = Mia San Mia</title>
 
     </div>
     <div class="item right">
+      
+
+  <a href="/2023/05/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/React/React%E5%85%A5%E9%97%A8/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;img.timelessq.com&#x2F;images&#x2F;2022&#x2F;07&#x2F;26&#x2F;1406d3cdecfa0dd6e62f13a601eb9230.jpg" title="React基础入门">
+  <span class="type">下一篇</span>
+  <span class="category"><i class="ic i-flag"></i> React</span>
+  <h3>React基础入门</h3>
+  </a>
+
     </div>
 </div>
 
@@ -286,13 +301,13 @@ Florence = Florence的城堡 = Mia San Mia</title>
 <nav class="state">
     <div class="item posts">
       <a href="/archives/">
-        <span class="count">26</span>
+        <span class="count">33</span>
         <span class="name">文章</span>
       </a>
     </div>
     <div class="item categories">
       <a href="/categories/">
-        <span class="count">23</span>
+        <span class="count">25</span>
         <span class="name">分类</span>
       </a>
     </div>
@@ -360,10 +375,12 @@ Florence = Florence的城堡 = Mia San Mia</title>
 
   <ul id="quick">
     <li class="prev pjax">
+        <a href="/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/CSharp-1/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
     </li>
     <li class="up"><i class="ic i-arrow-up"></i></li>
     <li class="down"><i class="ic i-arrow-down"></i></li>
     <li class="next pjax">
+        <a href="/2023/05/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/React/React%E5%85%A5%E9%97%A8/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
     </li>
     <li class="percent"></li>
   </ul>
@@ -385,12 +402,24 @@ Florence = Florence的城堡 = Mia San Mia</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E6%82%84%E6%82%84%E6%94%BE%E6%B4%8B%E5%B1%81/" title="分类于 悄悄放洋屁">悄悄放洋屁</a>
+<a href="/categories/%E4%B8%80%E4%BA%9B%E7%90%86%E8%AE%BA/" title="分类于 一些理论">一些理论</a>
 <i class="ic i-angle-right"></i>
-<a href="/categories/%E6%82%84%E6%82%84%E6%94%BE%E6%B4%8B%E5%B1%81/%E6%94%BE%E7%82%B9%E5%84%BF%E6%97%A5%E6%9C%AC%E5%B1%81/" title="分类于 放点儿日本屁">放点儿日本屁</a>
+<a href="/categories/%E4%B8%80%E4%BA%9B%E7%90%86%E8%AE%BA/JavaScript/" title="分类于 JavaScript">JavaScript</a>
 </div>
 
-    <span><a href="/2023/01/13/%E6%82%84%E6%82%84%E6%94%BE%E6%B4%8B%E5%B1%81/%E6%94%BE%E7%82%B9%E5%84%BF%E6%97%A5%E6%9C%AC%E5%B1%81/%E6%97%A5%E6%9C%AC%E5%B1%81/" title="日本屁">日本屁</a></span>
+    <span><a href="/2023/04/25/%E4%B8%80%E4%BA%9B%E7%90%86%E8%AE%BA/%E5%89%8D%E7%AB%AF%E7%9A%84%E7%90%86%E8%AE%BA/JavaScript/" title="JavaScript">JavaScript</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/" title="分类于 前端的丢人笔记">前端的丢人笔记</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/React/" title="分类于 React">React</a>
+</div>
+
+    <span><a href="/2023/05/21/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/React/DOM%E5%AF%B9%E8%B1%A1%E5%92%8CuseRef()/" title="DOM对象和useRef()">DOM对象和useRef()</a></span>
   </li>
 
       
@@ -409,12 +438,22 @@ Florence = Florence的城堡 = Mia San Mia</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/" title="分类于 前端的丢人笔记">前端的丢人笔记</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8D%E5%A4%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%B7%A5%E5%85%B7/" title="分类于 不太实用小工具">不太实用小工具</a>
+<a href="/categories/%E6%88%91%E8%BF%98%E6%98%AF%E4%BC%9A%E6%94%AF%E6%8C%81%E6%8B%9C%E4%BB%81%E6%85%95%E5%B0%BC%E9%BB%91/" title="分类于 我还是会支持拜仁慕尼黑">我还是会支持拜仁慕尼黑</a>
 </div>
 
-    <span><a href="/2023/02/15/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8D%E5%A4%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%B7%A5%E5%85%B7/%E4%B8%80%E4%BA%9B%E5%B0%8F%E5%B7%A5%E5%85%B7%20copy/" title="计算相差天数">计算相差天数</a></span>
+    <span><a href="/2023/01/29/%E6%88%91%E8%BF%98%E6%98%AF%E4%BC%9A%E6%94%AF%E6%8C%81%E6%8B%9C%E4%BB%81%E6%85%95%E5%B0%BC%E9%BB%91/%E6%8B%9C%E4%BB%81/" title="拜仁是冠军">拜仁是冠军</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/" title="分类于 后端的现眼学习">后端的现眼学习</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/" title="分类于 CSharp">CSharp</a>
+</div>
+
+    <span><a href="/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/HelloWorld/" title="Hello World！（类）">Hello World！（类）</a></span>
   </li>
 
       
@@ -424,41 +463,7 @@ Florence = Florence的城堡 = Mia San Mia</title>
 <a href="/categories/Cocos%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9D%9F/" title="分类于 Cocos从入门到入坟">Cocos从入门到入坟</a>
 </div>
 
-    <span><a href="/2023/02/08/Cocos%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9D%9F/Cocos%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/" title="Cocos入门基础">Cocos入门基础</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/" title="分类于 前端的丢人笔记">前端的丢人笔记</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/axios/" title="分类于 axios">axios</a>
-</div>
-
-    <span><a href="/2023/05/04/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/axios/axios%E5%B7%B4%E6%8B%89%E5%B7%B4%E6%8B%89/" title="axios巴拉巴拉">axios巴拉巴拉</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E4%BA%BA%E9%97%B4%E9%AC%BC%E6%89%AF/" title="分类于 人间鬼扯">人间鬼扯</a>
-</div>
-
-    <span><a href="/2023/01/13/%E4%BA%BA%E9%97%B4%E9%AC%BC%E6%89%AF/%E7%AC%AC%E4%B8%80%E7%AF%87/" title="一扯">一扯</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/" title="分类于 前端的丢人笔记">前端的丢人笔记</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/" title="分类于 Typescript">Typescript</a>
-</div>
-
-    <span><a href="/2023/01/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/Typescript/Typescript/" title="Typescript">Typescript</a></span>
+    <span><a href="/2023/02/08/Cocos%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9D%9F/%E4%BA%8B%E4%BB%B6%E7%9B%B8%E5%85%B3/" title="Cocos入门基础之：交互事件">Cocos入门基础之：交互事件</a></span>
   </li>
 
       
@@ -470,19 +475,7 @@ Florence = Florence的城堡 = Mia San Mia</title>
 <a href="/categories/%E5%92%B1%E8%BF%99%E4%B8%AA%E4%B8%BB%E9%A2%98%E9%87%8C%E9%9D%A2%E7%9A%84%E4%B8%9C%E8%A5%BF/Theme-Shoka-Documentation/" title="分类于 Theme Shoka Documentation">Theme Shoka Documentation</a>
 </div>
 
-    <span><a href="/2020/08/13/%E5%92%B1%E8%BF%99%E4%B8%AA%E4%B8%BB%E9%A2%98%E9%87%8C%E9%9D%A2%E7%9A%84%E4%B8%9C%E8%A5%BF/theme-shoka-doc/" title="Hexo主题Shoka &amp; multi-markdown-it渲染器使用说明">Hexo主题Shoka & multi-markdown-it渲染器使用说明</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/" title="分类于 后端的现眼学习">后端的现眼学习</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Golang/" title="分类于 Golang">Golang</a>
-</div>
-
-    <span><a href="/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Golang/Golang/" title="明天再学！">明天再学！</a></span>
+    <span><a href="/2020/08/13/%E5%92%B1%E8%BF%99%E4%B8%AA%E4%B8%BB%E9%A2%98%E9%87%8C%E9%9D%A2%E7%9A%84%E4%B8%9C%E8%A5%BF/dependents/" title="Step.1 依赖插件">Step.1 依赖插件</a></span>
   </li>
 
       
@@ -495,6 +488,30 @@ Florence = Florence的城堡 = Mia San Mia</title>
 </div>
 
     <span><a href="/2023/04/25/%E4%B8%80%E4%BA%9B%E7%90%86%E8%AE%BA/%E5%89%8D%E7%AB%AF%E7%9A%84%E7%90%86%E8%AE%BA/vue3/" title="Vue3">Vue3</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%92%B1%E8%BF%99%E4%B8%AA%E4%B8%BB%E9%A2%98%E9%87%8C%E9%9D%A2%E7%9A%84%E4%B8%9C%E8%A5%BF/" title="分类于 咱这个主题里面的东西">咱这个主题里面的东西</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E5%92%B1%E8%BF%99%E4%B8%AA%E4%B8%BB%E9%A2%98%E9%87%8C%E9%9D%A2%E7%9A%84%E4%B8%9C%E8%A5%BF/Theme-Shoka-Documentation/" title="分类于 Theme Shoka Documentation">Theme Shoka Documentation</a>
+</div>
+
+    <span><a href="/2020/08/13/%E5%92%B1%E8%BF%99%E4%B8%AA%E4%B8%BB%E9%A2%98%E9%87%8C%E9%9D%A2%E7%9A%84%E4%B8%9C%E8%A5%BF/display/" title="Step.3 界面显示">Step.3 界面显示</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/" title="分类于 前端的丢人笔记">前端的丢人笔记</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8D%E5%A4%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%B7%A5%E5%85%B7/" title="分类于 不太实用小工具">不太实用小工具</a>
+</div>
+
+    <span><a href="/2023/01/31/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8D%E5%A4%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%B7%A5%E5%85%B7/%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4%E4%B8%8E%E6%A0%BC%E5%BC%8F/" title="获取时间与格式">获取时间与格式</a></span>
   </li>
 
   </ul>
@@ -519,13 +536,13 @@ Florence = Florence的城堡 = Mia San Mia</title>
     <span class="post-meta-item-icon">
       <i class="ic i-chart-area"></i>
     </span>
-    <span title="站点总字数">25k 字</span>
+    <span title="站点总字数">30k 字</span>
 
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="ic i-coffee"></i>
     </span>
-    <span title="站点阅读时长">23 分钟</span>
+    <span title="站点阅读时长">27 分钟</span>
   </div>
   <div class="powered-by">
     基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>

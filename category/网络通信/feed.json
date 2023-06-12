@@ -1,0 +1,16 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Florence的城堡 • All posts by \"网络通信\" category",
+    "description": "我在这里随便写写",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/TPC%E5%8D%8F%E8%AE%AE/",
+            "url": "http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/TPC%E5%8D%8F%E8%AE%AE/",
+            "title": "TPC协议",
+            "date_published": "2023-01-13T08:11:15.181Z",
+            "content_html": "<h2 id=\"tcp协议与udp协议\"><a class=\"anchor\" href=\"#tcp协议与udp协议\">#</a> TCP 协议与 UDP 协议</h2>\n<blockquote>\n<p>TCP 协议与 UDP 协议最大的区别就是 <code>TCP基于连接</code> ， <code>UDP基于非连接</code></p>\n<p>![image-20230612151333408](/Users/artist/Library/Application Support/typora-user-images/image-20230612151333408.png)</p>\n<p>TCP 基于连接就相当于打电话，UDP 基于非连接就相当于写信</p>\n<p>TCP 的保证过程： <code>三次握手</code> ， <code>传输确认</code> ， <code>四次挥手</code></p>\n</blockquote>\n<h2 id=\"tcp的三次握手建立连接\"><a class=\"anchor\" href=\"#tcp的三次握手建立连接\">#</a> TCP 的三次握手（建立连接）</h2>\n<ul>\n<li>第一次握手\n<ul>\n<li><code>客户端</code> 向 <code>服务端</code> 发送 SYN 包，（能否与你建立连接？若服务端同意连接，则进行下一步）</li>\n</ul>\n</li>\n<li>第二次握手\n<ul>\n<li><code>服务端</code> 向  <code>客户端</code> 返回 SYN + ACK 包</li>\n</ul>\n</li>\n<li>第三次握手\n<ul>\n<li><code>客户端</code> 收到 SYN 和 ACK 包后向 <code>服务端</code> 发送 ACK 包，建立连接</li>\n</ul>\n</li>\n</ul>\n<blockquote>\n<p>Q：为什么是三次握手而不是两次握手？</p>\n<p>A：为了防止已失效的请求报文突然又传到服务器引起错误。</p>\n<ul>\n<li>假设采用两次握手连接，如果由于网络阻塞或者其他原因导致第一个 SYN 包未能及时发送至服务端，从而服务端未能返回 SYN 和 ACK 包至客户端\n<ul>\n<li>于是客户端会发送第二个 SYN 包，发送成功后服务端会返回 SYN + ACK，此时连接建立成功</li>\n<li>此时第一个 SYN 包恢复正常，服务端会认为客户端又发起了一个新的连接，从而服务端会进入等待数据状态。</li>\n<li>这样服务端会认为是两个连接，客户端会认为是一个连接，会造成状态不一致。</li>\n</ul>\n</li>\n<li>如果采用三次握手情况下，服务端收不到最后的 ACK 包，自然不会认为连接建立成功。</li>\n</ul>\n<p><strong> <code>所以三次握手从本质上来说，就是为了解决网络信道不可靠的问题。是为了基于不可靠的信道上建立可靠的连接。</code> </strong></p>\n</blockquote>\n<h2 id=\"tcp的四次挥手关闭连接\"><a class=\"anchor\" href=\"#tcp的四次挥手关闭连接\">#</a> TCP 的四次挥手（关闭连接）</h2>\n<ul>\n<li>\n<p>第一次挥手</p>\n<ul>\n<li><code>客户端</code> 向服务端发送 FIN 包发起连接关闭请求</li>\n<li><code>客户端</code> 进入 <code>终止等待1</code>  状态</li>\n</ul>\n</li>\n<li>\n<p>第二次挥手</p>\n<ul>\n<li><code>服务端</code> 收到 FIN 包，向客户端发送 ACK 包，表示自己进入了 <code>关闭等待</code> 状态</li>\n<li><code>客户端</code> 进入 <code>终止等待2</code>  状态</li>\n<li>此时服务端还可以发送未发送的数据，客户端还可以接受未接收的数据</li>\n</ul>\n</li>\n<li>\n<p>第三次挥手</p>\n<ul>\n<li><code>服务端</code> 发送完数据之后，向客户端发送 FIN 包</li>\n<li><code>服务端</code> 进入 <code>最后确认状态</code></li>\n</ul>\n</li>\n<li>\n<p>第四次挥手</p>\n<ul>\n<li><code>客户端</code> 向服务端发送 ACK 包</li>\n<li><code>客户端</code> 进入超时等待状态，经过超时时间后关闭连接；</li>\n<li><code>服务端</code> 收到 ACK 包后会立即关闭连接</li>\n</ul>\n</li>\n</ul>\n",
+            "tags": []
+        }
+    ]
+}

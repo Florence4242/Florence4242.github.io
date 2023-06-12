@@ -17,5 +17,43 @@
             <description><![CDATA[ &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLWNuL2RvdG5ldC9jc2hhcnAv&#34;&gt;官网&lt;/span&gt;！&lt;/p&gt;
  ]]></description>
         </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/HelloWorld/</guid>
+            <title>Hello World！（类）</title>
+            <link>http://example.com/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/HelloWorld/</link>
+            <pubDate>Tue, 25 Apr 2023 18:02:46 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;hello-world&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hello-world&#34;&gt;#&lt;/a&gt; Hello World&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;类（class）构成程序的主体&lt;/li&gt;
+&lt;li&gt;名称空间（namespace）以树形结构组织类（和其他类型）
+&lt;ul&gt;
+&lt;li&gt;如 Button 和 Path 类&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c#&#34;&gt;namespace HelloWorld	//命名空间，下面所编写的“Program”这个类，放在												了“HelloWorld”这个空间里面了
+class Program	//一个叫做“Program”的类
+&amp;#123;
+  static void Main(string[] args)
+  &amp;#123;
+    Console.WriteLine(&amp;quot;Hello World!&amp;quot;);
+  &amp;#125;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;类库&lt;/code&gt; 引用是使用名称空间的物理基础
+&lt;ul&gt;
+&lt;li&gt;不同技术类型的项目会默认引用不同的类库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DLL 引用（黑盒引用，无源代码）
+&lt;ul&gt;
+&lt;li&gt;NuGet 简介&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;项目引用（白盒引用，有源代码）&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
     </channel>
 </rss>

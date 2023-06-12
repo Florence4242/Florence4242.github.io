@@ -15,6 +15,44 @@
         <updated>2023-04-25T10:02:46.876Z</updated>
     </entry>
     <entry>
+        <id>http://example.com/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/HelloWorld/</id>
+        <title>Hello World！（类）</title>
+        <link rel="alternate" href="http://example.com/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/HelloWorld/"/>
+        <content type="html">&lt;h1 id=&#34;hello-world&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hello-world&#34;&gt;#&lt;/a&gt; Hello World&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;类（class）构成程序的主体&lt;/li&gt;
+&lt;li&gt;名称空间（namespace）以树形结构组织类（和其他类型）
+&lt;ul&gt;
+&lt;li&gt;如 Button 和 Path 类&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c#&#34;&gt;namespace HelloWorld	//命名空间，下面所编写的“Program”这个类，放在												了“HelloWorld”这个空间里面了
+class Program	//一个叫做“Program”的类
+&amp;#123;
+  static void Main(string[] args)
+  &amp;#123;
+    Console.WriteLine(&amp;quot;Hello World!&amp;quot;);
+  &amp;#125;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;类库&lt;/code&gt; 引用是使用名称空间的物理基础
+&lt;ul&gt;
+&lt;li&gt;不同技术类型的项目会默认引用不同的类库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DLL 引用（黑盒引用，无源代码）
+&lt;ul&gt;
+&lt;li&gt;NuGet 简介&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;项目引用（白盒引用，有源代码）&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <updated>2023-04-25T10:02:46.876Z</updated>
+    </entry>
+    <entry>
         <id>http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Golang/Golang/</id>
         <title>明天再学！</title>
         <link rel="alternate" href="http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Golang/Golang/"/>
@@ -27,6 +65,86 @@
         <title>加哇</title>
         <link rel="alternate" href="http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/Java/Java/"/>
         <content type="html">&lt;p&gt;等我问问岳畅……&lt;/p&gt;
+</content>
+        <updated>2023-01-13T08:11:15.181Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/TPC%E5%8D%8F%E8%AE%AE/</id>
+        <title>TPC协议</title>
+        <link rel="alternate" href="http://example.com/2023/01/13/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/TPC%E5%8D%8F%E8%AE%AE/"/>
+        <content type="html">&lt;h2 id=&#34;tcp协议与udp协议&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#tcp协议与udp协议&#34;&gt;#&lt;/a&gt; TCP 协议与 UDP 协议&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TCP 协议与 UDP 协议最大的区别就是 &lt;code&gt;TCP基于连接&lt;/code&gt; ， &lt;code&gt;UDP基于非连接&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;![image-20230612151333408](/Users/artist/Library/Application Support/typora-user-images/image-20230612151333408.png)&lt;/p&gt;
+&lt;p&gt;TCP 基于连接就相当于打电话，UDP 基于非连接就相当于写信&lt;/p&gt;
+&lt;p&gt;TCP 的保证过程： &lt;code&gt;三次握手&lt;/code&gt; ， &lt;code&gt;传输确认&lt;/code&gt; ， &lt;code&gt;四次挥手&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;tcp的三次握手建立连接&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#tcp的三次握手建立连接&#34;&gt;#&lt;/a&gt; TCP 的三次握手（建立连接）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;第一次握手
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;客户端&lt;/code&gt; 向 &lt;code&gt;服务端&lt;/code&gt; 发送 SYN 包，（能否与你建立连接？若服务端同意连接，则进行下一步）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;第二次握手
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;服务端&lt;/code&gt; 向  &lt;code&gt;客户端&lt;/code&gt; 返回 SYN + ACK 包&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;第三次握手
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;客户端&lt;/code&gt; 收到 SYN 和 ACK 包后向 &lt;code&gt;服务端&lt;/code&gt; 发送 ACK 包，建立连接&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q：为什么是三次握手而不是两次握手？&lt;/p&gt;
+&lt;p&gt;A：为了防止已失效的请求报文突然又传到服务器引起错误。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;假设采用两次握手连接，如果由于网络阻塞或者其他原因导致第一个 SYN 包未能及时发送至服务端，从而服务端未能返回 SYN 和 ACK 包至客户端
+&lt;ul&gt;
+&lt;li&gt;于是客户端会发送第二个 SYN 包，发送成功后服务端会返回 SYN + ACK，此时连接建立成功&lt;/li&gt;
+&lt;li&gt;此时第一个 SYN 包恢复正常，服务端会认为客户端又发起了一个新的连接，从而服务端会进入等待数据状态。&lt;/li&gt;
+&lt;li&gt;这样服务端会认为是两个连接，客户端会认为是一个连接，会造成状态不一致。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;如果采用三次握手情况下，服务端收不到最后的 ACK 包，自然不会认为连接建立成功。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt; &lt;code&gt;所以三次握手从本质上来说，就是为了解决网络信道不可靠的问题。是为了基于不可靠的信道上建立可靠的连接。&lt;/code&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;tcp的四次挥手关闭连接&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#tcp的四次挥手关闭连接&#34;&gt;#&lt;/a&gt; TCP 的四次挥手（关闭连接）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;第一次挥手&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;客户端&lt;/code&gt; 向服务端发送 FIN 包发起连接关闭请求&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;客户端&lt;/code&gt; 进入 &lt;code&gt;终止等待1&lt;/code&gt;  状态&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第二次挥手&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;服务端&lt;/code&gt; 收到 FIN 包，向客户端发送 ACK 包，表示自己进入了 &lt;code&gt;关闭等待&lt;/code&gt; 状态&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;客户端&lt;/code&gt; 进入 &lt;code&gt;终止等待2&lt;/code&gt;  状态&lt;/li&gt;
+&lt;li&gt;此时服务端还可以发送未发送的数据，客户端还可以接受未接收的数据&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第三次挥手&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;服务端&lt;/code&gt; 发送完数据之后，向客户端发送 FIN 包&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;服务端&lt;/code&gt; 进入 &lt;code&gt;最后确认状态&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第四次挥手&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;客户端&lt;/code&gt; 向服务端发送 ACK 包&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;客户端&lt;/code&gt; 进入超时等待状态，经过超时时间后关闭连接；&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;服务端&lt;/code&gt; 收到 ACK 包后会立即关闭连接&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </content>
         <updated>2023-01-13T08:11:15.181Z</updated>
     </entry>

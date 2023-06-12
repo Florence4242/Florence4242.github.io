@@ -1,0 +1,32 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Florence的城堡 • All posts by \"react\" category",
+    "description": "我在这里随便写写",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2023/05/23/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/React/%E5%87%BD%E6%95%B0%E7%BB%84%E4%BB%B6%E5%92%8C%E7%B1%BB%E7%BB%84%E4%BB%B6/",
+            "url": "http://example.com/2023/05/23/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/React/%E5%87%BD%E6%95%B0%E7%BB%84%E4%BB%B6%E5%92%8C%E7%B1%BB%E7%BB%84%E4%BB%B6/",
+            "title": "函数组件和类组件",
+            "date_published": "2023-05-23T04:59:15.505Z",
+            "content_html": "<h1 id=\"函数组件和类组件\"><a class=\"anchor\" href=\"#函数组件和类组件\">#</a> 函数组件和类组件</h1>\n<h2 id=\"xx\"><a class=\"anchor\" href=\"#xx\">#</a> xx</h2>\n<figure class=\"highlight jsx\"><figcaption data-lang=\"React JSX\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>函数组件和类组件的快捷创建方式<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre></pre></td></tr><tr><td data-num=\"3\"></td><td><pre>rcc<span class=\"token operator\">--</span> <span class=\"token operator\">></span> 类组件<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre>rccp<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre></pre></td></tr><tr><td data-num=\"6\"></td><td><pre>rfc<span class=\"token operator\">--</span> <span class=\"token operator\">></span> 函数组件<span class=\"token punctuation\">;</span></pre></td></tr></table></figure><h2 id=\"类组件\"><a class=\"anchor\" href=\"#类组件\">#</a> 类组件</h2>\n",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/2023/05/21/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/React/DOM%E5%AF%B9%E8%B1%A1%E5%92%8CuseRef()/",
+            "url": "http://example.com/2023/05/21/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/React/DOM%E5%AF%B9%E8%B1%A1%E5%92%8CuseRef()/",
+            "title": "DOM对象和useRef()",
+            "date_published": "2023-05-21T10:58:40.949Z",
+            "content_html": "<h2 id=\"dom对象和useref\"><a class=\"anchor\" href=\"#dom对象和useref\">#</a> DOM 对象和 useRef ()</h2>\n<p>获取原生的 DOM 对象</p>\n<ul>\n<li>可以使用传统的 document 来对 DOM 进行操作</li>\n<li>直接从 React 处获取 DOM 对象分，步骤：\n<ul>\n<li>1. 创建一个存储 DOM 对象的容器\n<ul>\n<li>使用 useRef () 钩子函数创建一个容器</li>\n</ul>\n</li>\n<li>将容器设置为想要获取 DOM 对象元素的 ref 属性</li>\n</ul>\n</li>\n</ul>\n<p>useRef()：</p>\n<ul>\n<li>返回的就是一个普通的 JS 对象；</li>\n<li>{ current: undefined }；</li>\n<li>所以我们直接创建一个 JS 对象，也可以代替 useRef ()；</li>\n<li>区别：\n<ul>\n<li>我们创建的对象，每次重新渲染都会创建一个新对象；</li>\n<li></li>\n</ul>\n</li>\n</ul>\n<p>钩子函数的注意事项：</p>\n<ul>\n<li>React 中的钩子函数只能用于<mark>函数组件</mark>或者<mark>自定义钩子</mark>；</li>\n<li>钩子函数只能直接在<mark>函数组件</mark>中调用；</li>\n</ul>\n",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/2023/05/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/React/React%E5%85%A5%E9%97%A8/",
+            "url": "http://example.com/2023/05/13/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/React/React%E5%85%A5%E9%97%A8/",
+            "title": "React基础入门",
+            "date_published": "2023-05-13T15:51:03.289Z",
+            "content_html": "<blockquote>\n<p>React 的特点：</p>\n<ul>\n<li>虚拟 DOM</li>\n<li>声明式</li>\n<li>基于组件</li>\n<li>支持服务器端渲染</li>\n<li>快速、简单、易学</li>\n</ul>\n</blockquote>\n<h1 id=\"手动创建一个react项目\"><a class=\"anchor\" href=\"#手动创建一个react项目\">#</a> 手动创建一个 React 项目</h1>\n<h2 id=\"项目结构\"><a class=\"anchor\" href=\"#项目结构\">#</a> 项目结构</h2>\n<p>常规的 React 项目需要使用 npm 或者 yarn 作为包管理器来对项目进行管。并且 React 官方为了方便我们的开发，为我们提供了 react-scripts 包。包中提供了项目开发中的大部分依赖，大大的简化了项目的开发。</p>\n<h3 id=\"开发步骤\"><a class=\"anchor\" href=\"#开发步骤\">#</a> 开发步骤</h3>\n<ul>\n<li>创建项目，目录结构如下</li>\n</ul>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>根目录</pre></td></tr><tr><td data-num=\"2\"></td><td><pre>\t- public</pre></td></tr><tr><td data-num=\"3\"></td><td><pre>\t\t\t- index.html<span class=\"token punctuation\">(</span>添加标签<span class=\"token operator\">&lt;</span>div <span class=\"token assign-left variable\">id</span><span class=\"token operator\">=</span><span class=\"token string\">\"root\"</span><span class=\"token operator\">></span><span class=\"token operator\">&lt;</span>/div<span class=\"token operator\">></span><span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre>\t- src</pre></td></tr><tr><td data-num=\"5\"></td><td><pre>\t\t\t- App.js</pre></td></tr><tr><td data-num=\"6\"></td><td><pre>\t\t\t- index.js</pre></td></tr></table></figure><ul>\n<li>进入项目所在的目录，并执行命令： <code>npm init -y </code> 或 <code>yarn init -y</code></li>\n<li>安装项目依赖： <code>npm install react react-dom react-scripts -S</code>  或 <code>yarn add react react-dom react-scripts</code></li>\n<li>运行 <code>npx react-scripts start</code>  启动项目（初次启动需要输入 y 确认）</li>\n<li start:react-scriptsstart=\"\">或者将 <code>react-scripts start</code>  设置到 <code>package.json</code>  的 scripts 选项中，然后通过 <code>npm start</code>  启动（初次启动需要输入 y 确认）&quot;scripts&quot;:</li>\n</ul>\n",
+            "tags": []
+        }
+    ]
+}
