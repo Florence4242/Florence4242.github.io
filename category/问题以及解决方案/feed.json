@@ -1,0 +1,16 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Florence的城堡 • All posts by \"问题以及解决方案\" category",
+    "description": "我在这里随便写写",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2023/05/04/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E9%97%AE%E9%A2%98%E4%BB%A5%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E9%97%AE%E9%A2%98%E4%BB%A5%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/",
+            "url": "http://example.com/2023/05/04/%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%A2%E4%BA%BA%E7%AC%94%E8%AE%B0/%E9%97%AE%E9%A2%98%E4%BB%A5%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E9%97%AE%E9%A2%98%E4%BB%A5%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/",
+            "title": "问题以及解决方案",
+            "date_published": "2023-05-04T09:59:47.838Z",
+            "content_html": "<h2 id=\"修改h5软键盘文字将搜索修改为发送\"><a class=\"anchor\" href=\"#修改h5软键盘文字将搜索修改为发送\">#</a> 修改 h5 软键盘文字，将搜索修改为发送</h2>\n<figure class=\"highlight typescript\"><figcaption data-lang=\"typescript\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token operator\">&lt;</span>input enterkeyhint<span class=\"token operator\">=</span><span class=\"token string\">\"enter\"</span><span class=\"token operator\">></span>\t<span class=\"token comment\">// 换行</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre><span class=\"token operator\">&lt;</span>input enterkeyhint<span class=\"token operator\">=</span><span class=\"token string\">\"done\"</span><span class=\"token operator\">></span>\t\t<span class=\"token comment\">// 完成</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre><span class=\"token operator\">&lt;</span>input enterkeyhint<span class=\"token operator\">=</span><span class=\"token string\">\"go\"</span><span class=\"token operator\">></span>\t\t\t<span class=\"token comment\">// 前往</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre><span class=\"token operator\">&lt;</span>input enterkeyhint<span class=\"token operator\">=</span><span class=\"token string\">\"next\"</span><span class=\"token operator\">></span>\t\t<span class=\"token comment\">// 下一项</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre><span class=\"token operator\">&lt;</span>input enterkeyhint<span class=\"token operator\">=</span><span class=\"token string\">\"previous\"</span><span class=\"token operator\">></span><span class=\"token comment\">// 换行</span></pre></td></tr><tr><td data-num=\"6\"></td><td><pre><span class=\"token operator\">&lt;</span>input enterkeyhint<span class=\"token operator\">=</span><span class=\"token string\">\"search\"</span><span class=\"token operator\">></span>\t<span class=\"token comment\">// 搜索</span></pre></td></tr><tr><td data-num=\"7\"></td><td><pre><span class=\"token operator\">&lt;</span>input enterkeyhint<span class=\"token operator\">=</span><span class=\"token string\">\"send\"</span><span class=\"token operator\">></span>\t\t<span class=\"token comment\">// 发送</span></pre></td></tr></table></figure>",
+            "tags": []
+        }
+    ]
+}
