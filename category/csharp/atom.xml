@@ -7,6 +7,14 @@
     <category term="Hexo" />
     <category term="教程" />
     <entry>
+        <id>http://example.com/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/CSharp-1/</id>
+        <title>CSharp入门！</title>
+        <link rel="alternate" href="http://example.com/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/CSharp-1/"/>
+        <content type="html">&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLWNuL2RvdG5ldC9jc2hhcnAv&#34;&gt;官网&lt;/span&gt;！&lt;/p&gt;
+</content>
+        <updated>2023-04-25T10:02:46.876Z</updated>
+    </entry>
+    <entry>
         <id>http://example.com/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/HelloWorld/</id>
         <title>Hello World！（类）</title>
         <link rel="alternate" href="http://example.com/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/HelloWorld/"/>
@@ -41,14 +49,6 @@ class Program	//一个叫做“Program”的类
 &lt;/li&gt;
 &lt;li&gt;项目引用（白盒引用，有源代码）&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-        <updated>2023-04-25T10:02:46.876Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/CSharp-1/</id>
-        <title>CSharp入门！</title>
-        <link rel="alternate" href="http://example.com/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/CSharp-1/"/>
-        <content type="html">&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLWNuL2RvdG5ldC9jc2hhcnAv&#34;&gt;官网&lt;/span&gt;！&lt;/p&gt;
 </content>
         <updated>2023-04-25T10:02:46.876Z</updated>
     </entry>
