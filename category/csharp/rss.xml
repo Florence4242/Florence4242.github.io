@@ -10,14 +10,6 @@
         <category>Hexo</category>
         <category>教程</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/CSharp-1/</guid>
-            <title>CSharp入门！</title>
-            <link>http://example.com/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/CSharp-1/</link>
-            <pubDate>Tue, 25 Apr 2023 18:02:46 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLWNuL2RvdG5ldC9jc2hhcnAv&#34;&gt;官网&lt;/span&gt;！&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
             <guid isPermalink="true">http://example.com/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/HelloWorld/</guid>
             <title>Hello World！（类）</title>
             <link>http://example.com/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/HelloWorld/</link>
@@ -53,6 +45,14 @@ class Program	//一个叫做“Program”的类
 &lt;/li&gt;
 &lt;li&gt;项目引用（白盒引用，有源代码）&lt;/li&gt;
 &lt;/ul&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/CSharp-1/</guid>
+            <title>CSharp入门！</title>
+            <link>http://example.com/2023/04/25/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%8E%B0%E7%9C%BC%E5%AD%A6%E4%B9%A0/CSharp/CSharp-1/</link>
+            <pubDate>Tue, 25 Apr 2023 18:02:46 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLWNuL2RvdG5ldC9jc2hhcnAv&#34;&gt;官网&lt;/span&gt;！&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
