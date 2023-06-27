@@ -61,76 +61,6 @@ class Program	//一个叫做“Program”的类
         <updated>2023-01-13T08:15:55.654Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/01/13/%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/websocket/</id>
-        <title>websocket</title>
-        <link rel="alternate" href="http://example.com/2023/01/13/%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/websocket/"/>
-        <content type="html">&lt;blockquote&gt;
-&lt;p&gt;在用户不感知的情况下，服务器将数据推送给浏览器的技术，就是&lt;mark&gt;服务器推送技术&lt;/mark&gt;，也叫&lt;mark&gt; comet 技术&lt;/mark&gt;。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;http定时轮询&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#http定时轮询&#34;&gt;#&lt;/a&gt; HTTP 定时轮询&lt;/h2&gt;
-&lt;p&gt;前端不断地定时向后端服务器发起请求进行询问，服务器端收到请求后响应消息，比如扫码登录；&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;定时轮询存在的问题：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;消耗带宽，增加下游服务器的负担；&lt;/li&gt;
-&lt;li&gt;会有卡顿，响应不及时的情况；&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;长轮询&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#长轮询&#34;&gt;#&lt;/a&gt; 长轮询&lt;/h2&gt;
-&lt;p&gt;&lt;mark&gt;发起一个请求，在较长时间内等待服务器响应的机制。&lt;/mark&gt;&lt;/p&gt;
-&lt;p&gt;HTTP 发出请求后，会给服务器留一定的时间做响应，规定时间内没返回就是超时；&lt;/p&gt;
-&lt;p&gt;如果将 HTTP 请求将超时设置的很大，比如 30s，在这 30s 内只要服务器收到了扫码请求，就立马返回给客户端；如果超时，就立马发起下一次请求。&lt;/p&gt;
-&lt;p&gt;这样就减少了 HTTP 请求个数，而且大部分情况下 30s 内用户会进行扫码操作，所以响应也是及时的。&lt;/p&gt;
-&lt;p&gt;例如：百度云网盘；消息队列 RocketMQ，消费者取数据也用到了长轮询&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;不论是定时轮询还是长轮询，本质上还是客户端主动取数据，只能应用于例如扫码等简单场景；&lt;/p&gt;
-&lt;p&gt;如果遇到游戏场景，游戏一般有大量的数据需要从服务器推送到客户端，这时就需要用到 websocket 了。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;websocket&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#websocket&#34;&gt;#&lt;/a&gt; websocket&lt;/h2&gt;
-&lt;p&gt;TCP 连接的两端 &lt;code&gt;client&lt;/code&gt;  和 &lt;code&gt;server&lt;/code&gt; ，同一时间里，双方都可以主动向对方发送数据，这就是所谓的 &lt;code&gt;全双工&lt;/code&gt; 。&lt;/p&gt;
-&lt;p&gt;现在使用最广泛的 HTTP1.1 也是基于 TCP 协议的，同一时间里客户端和服务端只能有一方发送数据，这就是 &lt;code&gt;半双工&lt;/code&gt; 。&lt;/p&gt;
-&lt;p&gt;websocket 继承了 TCP 协议的全双工能力，并且还提供了解决粘包的方案。适用于服务器和客户端需要频繁交互的大部分场景，比如网页、小程序游戏、网页聊天室、以及类似飞书这样的网页协同办公软件。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;之所以会有半双工，是由于 HTTP 协议设计之初，考虑的是看看网页文本的场景，能做到客户端发起请求，再由服务器响应就够了，没有考虑网页游戏这种客户端和服务器之间都需要互相发送大量数据的场景，所以为了支持这样的场景，需要一个基于 TCP 的新协议，于是新的协议 websocket 协议就被设计出来了。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;如何建立websocket连接&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何建立websocket连接&#34;&gt;#&lt;/a&gt; 如何建立 websocket 连接&lt;/h3&gt;
-&lt;p&gt;浏览器在 TCP 建立三次握手之后都会使用 HTTP 先进行一次通信。如果此时是普通的 HTTP 请求，那后续双方就还是老样子，继续用普通 HTTP 协议进行交互。如果这时候想尽力 websocket 连接，就会在 HTTP 请求里带上一些特殊的 header 头：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;第一步：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;Connection: Upgrade&lt;/code&gt;  表明浏览器想升级协议&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;Upgrade: websocket&lt;/code&gt;  表明客户端想升级成 websocket&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;Sec-WebSocket-Key: 随机生成的BASE64码&lt;/code&gt; ，发送给服务器，如果服务器支持升级成 websocket 协议，就会走 websocket 握手流程。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;第二步： &lt;code&gt;签名&lt;/code&gt; ：根据客户端生成的 BASE64 码，用公开算法变成另一段字符串，放在 HTTP 响应头 header 里：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;HTTP/1.1 101 Switching Protocols，101 状态码指协议切换&lt;/li&gt;
-&lt;li&gt;Sec-WebSocket-Accept: 新的字符串&lt;/li&gt;
-&lt;li&gt;Upgrade: websocket&lt;/li&gt;
-&lt;li&gt;Connection: Upgrade&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;第三步：浏览器用同样的公开算法将 BASE64 码转成另一段字符串，如果这段字符串和服务器返回的字符串一致，那验证通过。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;websocket 和 HTTP 都是基于 TCP 的协议，经历了三次握手之后利用 HTTP 升级成 ws 协议，后续双方就使用 ws 的数据格式进行通信，数据包在 ws 中被叫做 &lt;code&gt;帧&lt;/code&gt; 。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;ws 不是基于 HTTP 的新协议，因为 ws 只有在建立连接时才用到 HTTP，升级完成后就和 HTTP 没有任何关系了&lt;/p&gt;
-&lt;/blockquote&gt;
-</content>
-        <updated>2023-01-13T08:11:15.181Z</updated>
-    </entry>
-    <entry>
         <id>http://example.com/2023/01/13/%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/TPC%E5%8D%8F%E8%AE%AE/</id>
         <title>TPC协议</title>
         <link rel="alternate" href="http://example.com/2023/01/13/%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/TPC%E5%8D%8F%E8%AE%AE/"/>
@@ -207,6 +137,76 @@ class Program	//一个叫做“Program”的类
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+</content>
+        <updated>2023-01-13T08:11:15.181Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2023/01/13/%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/websocket/</id>
+        <title>websocket</title>
+        <link rel="alternate" href="http://example.com/2023/01/13/%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/websocket/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;在用户不感知的情况下，服务器将数据推送给浏览器的技术，就是&lt;mark&gt;服务器推送技术&lt;/mark&gt;，也叫&lt;mark&gt; comet 技术&lt;/mark&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;http定时轮询&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#http定时轮询&#34;&gt;#&lt;/a&gt; HTTP 定时轮询&lt;/h2&gt;
+&lt;p&gt;前端不断地定时向后端服务器发起请求进行询问，服务器端收到请求后响应消息，比如扫码登录；&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;定时轮询存在的问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;消耗带宽，增加下游服务器的负担；&lt;/li&gt;
+&lt;li&gt;会有卡顿，响应不及时的情况；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;长轮询&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#长轮询&#34;&gt;#&lt;/a&gt; 长轮询&lt;/h2&gt;
+&lt;p&gt;&lt;mark&gt;发起一个请求，在较长时间内等待服务器响应的机制。&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;HTTP 发出请求后，会给服务器留一定的时间做响应，规定时间内没返回就是超时；&lt;/p&gt;
+&lt;p&gt;如果将 HTTP 请求将超时设置的很大，比如 30s，在这 30s 内只要服务器收到了扫码请求，就立马返回给客户端；如果超时，就立马发起下一次请求。&lt;/p&gt;
+&lt;p&gt;这样就减少了 HTTP 请求个数，而且大部分情况下 30s 内用户会进行扫码操作，所以响应也是及时的。&lt;/p&gt;
+&lt;p&gt;例如：百度云网盘；消息队列 RocketMQ，消费者取数据也用到了长轮询&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不论是定时轮询还是长轮询，本质上还是客户端主动取数据，只能应用于例如扫码等简单场景；&lt;/p&gt;
+&lt;p&gt;如果遇到游戏场景，游戏一般有大量的数据需要从服务器推送到客户端，这时就需要用到 websocket 了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;websocket&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#websocket&#34;&gt;#&lt;/a&gt; websocket&lt;/h2&gt;
+&lt;p&gt;TCP 连接的两端 &lt;code&gt;client&lt;/code&gt;  和 &lt;code&gt;server&lt;/code&gt; ，同一时间里，双方都可以主动向对方发送数据，这就是所谓的 &lt;code&gt;全双工&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;现在使用最广泛的 HTTP1.1 也是基于 TCP 协议的，同一时间里客户端和服务端只能有一方发送数据，这就是 &lt;code&gt;半双工&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;websocket 继承了 TCP 协议的全双工能力，并且还提供了解决粘包的方案。适用于服务器和客户端需要频繁交互的大部分场景，比如网页、小程序游戏、网页聊天室、以及类似飞书这样的网页协同办公软件。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;之所以会有半双工，是由于 HTTP 协议设计之初，考虑的是看看网页文本的场景，能做到客户端发起请求，再由服务器响应就够了，没有考虑网页游戏这种客户端和服务器之间都需要互相发送大量数据的场景，所以为了支持这样的场景，需要一个基于 TCP 的新协议，于是新的协议 websocket 协议就被设计出来了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;如何建立websocket连接&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何建立websocket连接&#34;&gt;#&lt;/a&gt; 如何建立 websocket 连接&lt;/h3&gt;
+&lt;p&gt;浏览器在 TCP 建立三次握手之后都会使用 HTTP 先进行一次通信。如果此时是普通的 HTTP 请求，那后续双方就还是老样子，继续用普通 HTTP 协议进行交互。如果这时候想尽力 websocket 连接，就会在 HTTP 请求里带上一些特殊的 header 头：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;第一步：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Connection: Upgrade&lt;/code&gt;  表明浏览器想升级协议&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Upgrade: websocket&lt;/code&gt;  表明客户端想升级成 websocket&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Sec-WebSocket-Key: 随机生成的BASE64码&lt;/code&gt; ，发送给服务器，如果服务器支持升级成 websocket 协议，就会走 websocket 握手流程。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第二步： &lt;code&gt;签名&lt;/code&gt; ：根据客户端生成的 BASE64 码，用公开算法变成另一段字符串，放在 HTTP 响应头 header 里：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HTTP/1.1 101 Switching Protocols，101 状态码指协议切换&lt;/li&gt;
+&lt;li&gt;Sec-WebSocket-Accept: 新的字符串&lt;/li&gt;
+&lt;li&gt;Upgrade: websocket&lt;/li&gt;
+&lt;li&gt;Connection: Upgrade&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第三步：浏览器用同样的公开算法将 BASE64 码转成另一段字符串，如果这段字符串和服务器返回的字符串一致，那验证通过。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;websocket 和 HTTP 都是基于 TCP 的协议，经历了三次握手之后利用 HTTP 升级成 ws 协议，后续双方就使用 ws 的数据格式进行通信，数据包在 ws 中被叫做 &lt;code&gt;帧&lt;/code&gt; 。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ws 不是基于 HTTP 的新协议，因为 ws 只有在建立连接时才用到 HTTP，升级完成后就和 HTTP 没有任何关系了&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
         <updated>2023-01-13T08:11:15.181Z</updated>
     </entry>
